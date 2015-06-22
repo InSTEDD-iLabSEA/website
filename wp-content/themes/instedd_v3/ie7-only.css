@@ -1,0 +1,25 @@
+div#follow-twitter {
+	margin-top: -24px;	
+	margin-left: -5px;
+}
+
+#header #secondary-menu {
+	width: 322px;	
+}
+
+.sidebar-r .widget_richtext ul,
+.sidebar-r ul li.community ul {
+	margin-left: 1.25em;
+}
+
+.content h3 {
+	font-size: 14px;	
+}
+
+.sidebar-r h4 {
+	font-size: 13px;	
+}
+
+div.sidebar-r li.start-using a.btn-technology-start-using {
+/*	behavior: url(/wp-content/themes/instedd_v3/border-radius.htc);
+*/}	

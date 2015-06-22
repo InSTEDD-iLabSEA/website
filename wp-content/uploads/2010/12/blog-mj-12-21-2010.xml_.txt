@@ -1,0 +1,1195 @@
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:georss='http://www.georss.org/georss' xmlns:gd='http://schemas.google.com/g/2005' xmlns:thr='http://purl.org/syndication/thread/1.0'><id>tag:blogger.com,1999:blog-2487636404487468938.archive</id><updated>2010-12-15T18:45:01.314-08:00</updated><title type='text'>Mary Jane Marcus</title><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/archive'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/archive'/><link rel='http://schemas.google.com/g/2005#post' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/archive'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author><generator version='7.00' uri='http://www.blogger.com'>Blogger</generator><entry><id>tag:blogger.com,1999:blog-2487636404487468938.layout</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#template'/><title type='text'>Template: Mary Jane Marcus</title><content type='text'>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'&gt;
+	&lt;head&gt;
+		&lt;link href='http://amz.instedd.org/favicon.ico' rel='shortcut icon' type='image/x-icon'/&gt;
+		&lt;b:include data='blog' name='all-head-content'/&gt;
+		&lt;title&gt;
+			&lt;data:blog.pageTitle/&gt;
+		&lt;/title&gt;
+		&lt;b:skin&gt;&lt;![CDATA[
+			
+			/* 
+Blogger Template Style
+Name:     TicTac
+Author:   Dan Cederholm
+URL:      www.simplebits.com
+Date:     1 March 2004
+Updated by: Blogger Team
+Updated by: InSTEDD
+*/
+
+/* Variable definitions
+   ====================
+
+   &lt;Variable name="bodyfont" description="Text Font"
+             type="font"
+             default="normal normal 100% Verdana, sans-serif" value="normal normal 100% Verdana, sans-serif"&gt;
+
+   &lt;Variable name="pagetitlefont" description="Page Header Font"
+             type="font" default="normal normal 100% 'Lucida Grande','Trebuchet MS'" value="normal normal 100% 'Lucida Grande','Trebuchet MS'"&gt;
+
+   &lt;Variable name="titlefont" description="Post Title Font"
+             type="font" default="normal bold 130% 'Lucida Grande','Trebuchet MS'" value="normal bold 130% 'Lucida Grande','Trebuchet MS'"&gt;
+
+   &lt;Variable name="sidebarheaderfont" description="Sidebar Title Font"
+             type="font" default="normal bold 130% 'Lucida Grande','Trebuchet MS'" value="normal bold 130% 'Lucida Grande','Trebuchet MS'"&gt;
+*/
+
+/* ---( page defaults )--- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  text-align: center;
+  color: #333333;
+  background: #e0e0e0;
+  }
+
+blockquote {
+  margin: 0 0 0 30px;
+  padding: 10px 0 0 20px;
+  font-size: 88%;
+  line-height: 1.5em;
+  color: #666;
+  background: url(http://amz.instedd.org/blogger/quotes.gif) no-repeat top left;
+  }
+
+blockquote p {
+  margin-top: 0;
+  }
+
+abbr, acronym {
+  cursor: help;
+  font-style: normal;
+  border-bottom: 1px dotted;
+  }
+
+code {
+  color: #f63;
+  }
+
+hr {
+  display: none;
+  }
+
+img {
+  border: none;
+  }
+
+/* unordered list style */
+
+ul {
+  list-style: none;
+  margin-left: 10px;
+  padding: 0;
+  }
+
+li {
+  list-style: none;
+  padding-left: 14px;
+  margin-bottom: 3px;
+  background: url(http://amz.instedd.org/blogger/tictac_orange.gif) no-repeat 0 6px;
+  }
+
+/* links */
+
+a:link {
+  color: #6699cc;
+  }
+
+a:visited {
+  color: #666699;
+  }
+
+a:hover {
+  color: #693;
+  }
+
+a:active {
+  color: #cc3333;
+  text-decoration: none;
+  }
+
+/* ---( layout structure )---*/
+
+#outer-wrapper {
+  width: 847px;
+  margin: 0px auto 0;
+  text-align: left;
+  font: $bodyfont;
+  background: url(http://amz.instedd.org/blogger/tile.gif) repeat-y;
+  }
+
+#content-wrapper {
+  margin-left: 42px; /* to avoid the border image */
+  width: 763px;
+  }
+
+#main {
+  float: left;
+  width: 460px;
+  margin: 20px 0 0 0;
+  padding: 0 0 0 1em;
+  line-height: 1.5em;
+  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+  overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+  }
+
+#sidebar {
+  float: right;
+  width: 259px;
+  font-size: 85%;
+  line-height: 1.4em;
+  color: #999999;
+  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+  overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+  }
+
+/* ---( header and site name )--- */
+
+#header-wrapper {
+  margin: 0;
+  padding: 0;
+  font: $pagetitlefont;
+  text-align: right;
+  height: 120px;
+  background: #e0e0e0 url(http://amz.instedd.org/blogger/bg_header.gif) no-repeat 0px 0px;
+  }
+
+/* kzu */
+#header-home-link 
+{
+  display: block;
+  float: left;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.titlewrapper
+{
+  padding-right: 70px;
+	/*padding-left: 450px;*/
+	padding-top: 20px;
+	line-height: 10px;
+ 
+}
+
+.descriptionwrapper
+{
+  padding-right: 70px;
+	/*padding-left: 450px;*/
+}
+
+#header .title {
+  color: #94BA75;
+  }
+
+#header .description {
+  color: #88B666;
+  }
+
+#header h1 { 
+  font-size: 200%;
+  text-shadow: #81A75B 2px 2px 2px;
+ }
+
+#header h1 a {
+  text-decoration: none;
+  color: #94BA75;
+  }
+
+#header h1 a:hover {
+  color: #eee;
+  }
+
+/* ---( main column )--- */
+
+h2.date-header {
+  margin-top: 0;
+  padding-left: 14px;
+  font-size: 90%;
+  color: #ff9933;
+  background: url(http://amz.instedd.org/blogger/date_icon.gif) no-repeat 0 50%;
+  }
+
+.post h3 {
+  margin-top: 0;
+  font: $titlefont;
+  letter-spacing: -1px;
+  color: #4c4c4c;
+  }
+
+.post {
+  margin: 0 0 1.5em 0;
+  padding: 0 0 1.5em 14px;
+  border-bottom: 1px solid #ddd;
+  }
+
+.post h3 a,
+.post h3 a:visited { 
+  color: #4c4c4c;
+  text-decoration: none;
+ }
+
+.post-footer {
+  margin: 0;
+  padding: 0 0 0 14px;
+  font-size: 88%;
+  color: #999999;
+  background: url(amz.instedd.org/blogger/tictac_grey.gif) no-repeat 0 8px;
+  }
+
+.post img {
+  padding: 6px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
+  }
+
+.feed-links {
+  clear: both;
+  line-height: 2.5em;
+}
+
+#blog-pager-newer-link {
+  float: left;
+ }
+
+#blog-pager-older-link { 
+  float: right;
+ }
+ 
+#blog-pager {   
+  text-align: center; 
+ }
+
+/* comment styles */
+
+#comments {
+  padding-top: 10px;
+  font-size: 85%;
+  line-height: 1.5em;
+  color: #666;
+  background: #eee url(http://amz.instedd.org/blogger/comments_curve.gif) no-repeat top left;
+  }
+
+#comments h4 {
+  margin: 20px 0 15px 0;
+  padding: 8px 0 0 40px;
+  font-family: "Lucida Grande", "Trebuchet MS";
+  font-size: 130%;
+  color: #666;
+  background: url(http://amz.instedd.org/blogger/bubbles.gif) no-repeat 10px 0;
+  height: 29px !important; /* for most browsers */
+  height /**/:37px; /* for IE5/Win */
+  }
+  
+#comments ul {
+  margin-left: 0;
+  }
+
+#comments li {
+  background: none;
+  padding-left: 0;
+  }
+  
+.comment-body {
+  padding: 0 10px 0 25px;
+  background: url(http://amz.instedd.org/blogger/tictac_orange.gif) no-repeat 10px 5px;
+  }
+
+.comment-body p {
+  margin-bottom: 0;
+  }
+
+.comment-author {
+  margin: 4px 0 0 0;
+  padding: 0 10px 0 60px;
+  color: #999;
+  background: url(http://amz.instedd.org/blogger/comment_arrow.gif) no-repeat 44px 2px;
+  }
+
+.comment-footer {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1em;
+}
+
+
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+
+/* ---( sidebar )--- */
+
+.sidebar h2 { 
+  margin: 0 0 0 0;
+  padding: 25px 0 0 40px;
+  font: $sidebarheaderfont;
+  color: #666666;
+  height: 26px;
+  background: url(http://amz.instedd.org/instedd-logo-small.png) no-repeat 10px 28px;
+  height: 26px !important; /* for most browsers */
+  height /**/:57px; /* for IE5/Win */
+  }
+
+.sidebar .widget {
+  margin: 0;
+  padding: 0 0 0px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar li {
+  background: url(http://amz.instedd.org/blogger/tictac_green.gif) no-repeat 0 5px;
+  }
+
+.profile-textblock { 
+  clear: both;
+  margin-left: 0;
+}
+
+.profile-img { 
+  float: left;
+  margin: 0 5px 5px 0;
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+/* ---( footer )--- */
+
+.clear { /* to fix IE6 padding-top issue */
+  clear: both;
+  }
+
+#footer-wrapper {
+  margin: 0;
+  padding: 0 0 9px 0;
+  font-size: 85%;
+  color: #ddd;
+  background: url(http://amz.instedd.org/blogger/bottom_sill.gif) no-repeat bottom left;
+  }
+
+#footer {
+  margin: 0;
+  padding: 20px 320px 20px 95px;
+  background: url(http://amz.instedd.org/blogger/bg_footer.gif) no-repeat top left;
+  }
+
+
+/** Page structure tweaks for layout editor wireframe */
+body#layout #outer-wrapper,
+body#layout #main,
+body#layout #sidebar { 
+  padding-top: 0;
+  margin-top: 0;
+}
+
+body#layout #outer-wrapper,
+body#layout #content-wrapper { 
+  width: 740px;
+}
+
+body#layout #sidebar { 
+  margin-right: 0;
+  margin-bottom: 1em;
+ }
+
+body#layout #header,
+body#layout #footer,
+body#layout #main {
+  padding: 0;
+ }
+
+body#layout #content-wrapper { 
+  margin: 0px;
+ }
+
+		
+		]]&gt;&lt;/b:skin&gt;
+		&lt;style&gt;
+                  /* kzu: hide search bar */
+                  #Navbar1 { display: none }
+                  #header-inner
+                  {
+                    text-align: left;
+                  }
+                  .instedd-icon
+                  {
+                    border: none;
+                    height: 13;
+                    width: 16;
+                    vertical-align: middle;
+                  }
+                  .homelink
+                  {
+                    border-bottom:1px solid #DDDDDD;
+                    float: right;
+                    padding:10px 130px 10px 13px;
+                  }
+		&lt;/style&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+
+  		&lt;div id='outer-wrapper'&gt;
+			&lt;div id='wrap2'&gt;
+
+				&lt;!-- skip links for text browsers --&gt;
+				&lt;span id='skiplinks' style='display:none;'&gt;
+					&lt;a href='#main'&gt;skip to main &lt;/a&gt; |
+					&lt;a href='#sidebar'&gt;skip to sidebar&lt;/a&gt;
+				&lt;/span&gt;
+
+				&lt;div id='header-wrapper'&gt;
+					&lt;b:section class='header' id='header' maxwidgets='1' showaddelement='no'&gt;
+&lt;b:widget id='Header1' locked='true' title='Mary Jane Marcus (Header)' type='Header'&gt;
+&lt;b:includable id='title'&gt;
+								&lt;b:if cond='data:blog.url == data:blog.homepageUrl'&gt;
+									&lt;data:title/&gt;
+									&lt;b:else/&gt;
+									&lt;a expr:href='data:blog.homepageUrl'&gt;
+										&lt;data:title/&gt;
+									&lt;/a&gt;
+								&lt;/b:if&gt;
+							&lt;/b:includable&gt;
+&lt;b:includable id='description'&gt;
+								&lt;div class='descriptionwrapper'&gt;
+									&lt;p class='description'&gt;
+										&lt;span&gt;
+											&lt;data:description/&gt;
+										&lt;/span&gt;
+									&lt;/p&gt;
+								&lt;/div&gt;
+							&lt;/b:includable&gt;
+&lt;b:includable id='main'&gt;
+								&lt;b:if cond='data:useImage'&gt;
+									&lt;b:if cond='data:imagePlacement == &amp;quot;REPLACE&amp;quot;'&gt;
+										&lt;!--Show just the image, no text--&gt;
+										&lt;div id='header-inner'&gt;
+											&lt;a expr:href='data:blog.homepageUrl' style='display: block'&gt;
+												&lt;img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &amp;quot;_headerimg&amp;quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/&gt;
+											&lt;/a&gt;
+										&lt;/div&gt;
+										&lt;b:else/&gt;
+										&lt;!--Show image as background to text--&gt;
+										&lt;div expr:style='&amp;quot;background-image: url(\&amp;quot;&amp;quot; + data:sourceUrl + &amp;quot;\&amp;quot;); &amp;quot;                      + &amp;quot;background-repeat: no-repeat; &amp;quot;                      + &amp;quot;width: &amp;quot; + data:width + &amp;quot;px; &amp;quot;                      + &amp;quot;height: &amp;quot; + data:height + &amp;quot;px;&amp;quot;' id='header-inner'&gt;
+											&lt;div class='titlewrapper' style='background: transparent'&gt;
+												&lt;h1 class='title' style='background: transparent; border-width: 0px'&gt;
+														&lt;a expr:href='data:blog.homepageUrl'&gt;
+															&lt;data:title/&gt;
+														&lt;/a&gt;
+												&lt;/h1&gt;
+											&lt;/div&gt;
+											&lt;div class='descriptionwrapper'&gt;
+												&lt;p class='description'&gt;
+													&lt;span&gt;
+														&lt;data:description/&gt;
+													&lt;/span&gt;
+												&lt;/p&gt;
+											&lt;/div&gt;
+										&lt;/div&gt;
+									&lt;/b:if&gt;
+									&lt;b:else/&gt;
+									&lt;!--No header image --&gt;
+									&lt;div id='header-inner'&gt;
+										&lt;table border='0' width='100%'&gt;
+											&lt;tr&gt;
+												&lt;td&gt;
+													&lt;a href='http://www.instedd.org/blogs' id='header-home-link' target='_blank' title='InSTEDD Team Blogs'&gt;
+														&lt;img alt='Blog Home' height='83' src='http://amz.instedd.org/instedd.png' width='282'/&gt;
+													&lt;/a&gt;
+												&lt;/td&gt;
+												&lt;td&gt;
+													&lt;div class='titlewrapper'&gt;
+														&lt;h1 class='title'&gt;
+																&lt;a expr:href='data:blog.homepageUrl' title='Blog Home'&gt;
+																	&lt;data:title/&gt;
+																&lt;/a&gt;
+														&lt;/h1&gt;
+													&lt;/div&gt;
+													&lt;div class='descriptionwrapper'&gt;
+														&lt;p class='description'&gt;
+															&lt;span&gt;
+																&lt;data:description/&gt;
+															&lt;/span&gt;
+														&lt;/p&gt;
+													&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+										&lt;/table&gt;
+									&lt;/div&gt;
+								&lt;/b:if&gt;
+							&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;/b:section&gt;
+				&lt;/div&gt;
+
+				&lt;div id='content-wrapper'&gt;
+
+					&lt;div id='crosscol-wrapper' style='text-align:center'&gt;
+						&lt;b:section class='crosscol' id='crosscol' showaddelement='no'/&gt;
+					&lt;/div&gt;
+
+					&lt;div id='main-wrapper'&gt;
+						&lt;b:section class='main' id='main' showaddelement='no'&gt;
+&lt;b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'&gt;
+&lt;b:includable id='nextprev'&gt;
+									&lt;div class='blog-pager' id='blog-pager'&gt;
+										&lt;b:if cond='data:newerPageUrl'&gt;
+											&lt;span id='blog-pager-newer-link'&gt;
+												&lt;a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-newer-link&amp;quot;' expr:title='data:newerPageTitle'&gt;
+													&lt;data:newerPageTitle/&gt;
+												&lt;/a&gt;
+											&lt;/span&gt;
+										&lt;/b:if&gt;
+
+										&lt;b:if cond='data:olderPageUrl'&gt;
+											&lt;span id='blog-pager-older-link'&gt;
+												&lt;a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-older-link&amp;quot;' expr:title='data:olderPageTitle'&gt;
+													&lt;data:olderPageTitle/&gt;
+												&lt;/a&gt;
+											&lt;/span&gt;
+										&lt;/b:if&gt;
+
+										&lt;b:if cond='data:blog.homepageUrl != data:blog.url'&gt;
+											&lt;a class='home-link' expr:href='data:blog.homepageUrl'&gt;
+												&lt;data:homeMsg/&gt;
+											&lt;/a&gt;
+											&lt;b:else/&gt;
+											&lt;b:if cond='data:newerPageUrl'&gt;
+												&lt;a class='home-link' expr:href='data:blog.homepageUrl'&gt;
+													&lt;data:homeMsg/&gt;
+												&lt;/a&gt;
+											&lt;/b:if&gt;
+										&lt;/b:if&gt;
+
+									&lt;/div&gt;
+									&lt;div class='clear'/&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='shareButtons' var='post'&gt;
+  &lt;a class='share-button sb-email' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=email&amp;quot;' expr:title='data:top.emailThisMsg' target='_blank'&gt;
+    &lt;span class='share-button-link-text'&gt;&lt;data:top.emailThisMsg/&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;a class='share-button sb-blog' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=blog&amp;quot;' expr:onclick='&amp;quot;window.open(this.href, \&amp;quot;_blank\&amp;quot;, \&amp;quot;height=270,width=475\&amp;quot;); return false;&amp;quot;' expr:title='data:top.blogThisMsg' target='_blank'&gt;
+    &lt;span class='share-button-link-text'&gt;&lt;data:top.blogThisMsg/&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;a class='share-button sb-twitter' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=twitter&amp;quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'&gt;
+    &lt;span class='share-button-link-text'&gt;&lt;data:top.shareToTwitterMsg/&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;a class='share-button sb-facebook' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=facebook&amp;quot;' expr:onclick='&amp;quot;window.open(this.href, \&amp;quot;_blank\&amp;quot;, \&amp;quot;height=430,width=640\&amp;quot;); return false;&amp;quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'&gt;
+    &lt;span class='share-button-link-text'&gt;&lt;data:top.shareToFacebookMsg/&gt;&lt;/span&gt;&lt;/a&gt;
+  &lt;a class='share-button sb-buzz' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=buzz&amp;quot;' expr:onclick='&amp;quot;window.open(this.href, \&amp;quot;_blank\&amp;quot;, \&amp;quot;height=415,width=690\&amp;quot;); return false;&amp;quot;' expr:title='data:top.shareToBuzzMsg' target='_blank'&gt;
+    &lt;span class='share-button-link-text'&gt;&lt;data:top.shareToBuzzMsg/&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='backlinks' var='post'&gt;
+									&lt;a name='links'/&gt;
+									&lt;h4&gt;
+										&lt;data:post.backlinksLabel/&gt;
+									&lt;/h4&gt;
+									&lt;b:if cond='data:post.numBacklinks != 0'&gt;
+										&lt;dl class='comments-block' id='comments-block'&gt;
+											&lt;b:loop values='data:post.backlinks' var='backlink'&gt;
+												&lt;div class='collapsed-backlink backlink-control'&gt;
+													&lt;dt class='comment-title'&gt;
+														&lt;span class='backlink-toggle-zippy'&gt;&amp;#160;&lt;/span&gt;
+														&lt;a expr:href='data:backlink.url' rel='nofollow'&gt;
+															&lt;data:backlink.title/&gt;
+														&lt;/a&gt;
+														&lt;b:include data='backlink' name='backlinkDeleteIcon'/&gt;
+													&lt;/dt&gt;
+													&lt;dd class='comment-body collapseable'&gt;
+														&lt;data:backlink.snippet/&gt;
+													&lt;/dd&gt;
+													&lt;dd class='comment-footer collapseable'&gt;
+														&lt;span class='comment-author'&gt;
+															&lt;data:post.authorLabel/&gt;
+															&lt;data:backlink.author/&gt;
+														&lt;/span&gt;
+														&lt;span class='comment-timestamp'&gt;
+															&lt;data:post.timestampLabel/&gt;
+															&lt;data:backlink.timestamp/&gt;
+														&lt;/span&gt;
+													&lt;/dd&gt;
+												&lt;/div&gt;
+											&lt;/b:loop&gt;
+										&lt;/dl&gt;
+									&lt;/b:if&gt;
+									&lt;p class='comment-footer'&gt;
+										&lt;a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &amp;quot;_backlinks-create-link&amp;quot;' target='_blank'&gt;
+											&lt;data:post.createLinkLabel/&gt;
+										&lt;/a&gt;
+									&lt;/p&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='post' var='post'&gt;
+									&lt;div class='post hentry uncustomized-post-template'&gt;
+										&lt;a expr:name='data:post.id'/&gt;
+										&lt;b:if cond='data:post.title'&gt;
+											&lt;h3 class='post-title entry-title'&gt;
+												&lt;b:if cond='data:post.link'&gt;
+													&lt;a expr:href='data:post.link'&gt;
+														&lt;img class='instedd-icon' src='http://amz.instedd.org/instedd-logo-small.png' style='border: none; height: 13; width: 16; vertical-align: middle;'/&gt;
+													&lt;/a&gt;
+													&lt;a expr:href='data:post.link'&gt;
+														&lt;data:post.title/&gt;
+													&lt;/a&gt;
+													&lt;b:else/&gt;
+													&lt;b:if cond='data:post.url'&gt;
+														&lt;a expr:href='data:post.url'&gt;
+															&lt;img class='instedd-icon' src='http://amz.instedd.org/instedd-logo-small.png' style='border: none; height: 13; width: 16; vertical-align: middle;'/&gt;
+														&lt;/a&gt;
+														&lt;a expr:href='data:post.url'&gt;
+															&lt;data:post.title/&gt;
+														&lt;/a&gt;
+														&lt;b:else/&gt;
+														&lt;img class='instedd-icon' src='http://amz.instedd.org/instedd-logo-small.png' style='border: none; height: 13; width: 16; vertical-align: middle;'/&gt;
+														&lt;data:post.title/&gt;
+													&lt;/b:if&gt;
+												&lt;/b:if&gt;
+											&lt;/h3&gt;
+										&lt;/b:if&gt;
+
+										&lt;div class='post-header-line-1'/&gt;
+
+										&lt;div class='post-body entry-content'&gt;
+											&lt;p&gt;
+												&lt;data:post.body/&gt;
+											&lt;/p&gt;
+											&lt;div style='clear: both;'/&gt;
+											&lt;!-- clear for photos floats --&gt;
+										&lt;/div&gt;
+										&lt;div class='post-footer'&gt;
+											&lt;p class='post-footer-line post-footer-line-1'&gt;
+												&lt;span class='post-author vcard'&gt;
+													&lt;b:if cond='data:top.showAuthor'&gt;
+														&lt;data:top.authorLabel/&gt;
+														&lt;span class='fn'&gt;
+															&lt;data:post.author/&gt;
+														&lt;/span&gt;
+													&lt;/b:if&gt;
+												&lt;/span&gt;
+
+												&lt;span class='post-timestamp'&gt;
+													&lt;b:if cond='data:top.showTimestamp'&gt;
+														&lt;data:top.timestampLabel/&gt;
+														&lt;b:if cond='data:post.url'&gt;
+															&lt;a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'&gt;
+																&lt;abbr class='published' expr:title='data:post.timestampISO8601'&gt;
+																	&lt;data:post.timestamp/&gt;
+																&lt;/abbr&gt;
+															&lt;/a&gt;
+														&lt;/b:if&gt;
+													&lt;/b:if&gt;
+												&lt;/span&gt;
+
+												&lt;span class='post-comment-link'&gt;
+													&lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+
+														&lt;b:if cond='data:post.allowComments'&gt;
+															&lt;a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;
+																&lt;b:if cond='data:post.numComments == 1'&gt;
+																	1 &lt;data:top.commentLabel/&gt;&lt;b:else/&gt;&lt;data:post.numComments/&gt; &lt;data:top.commentLabelPlural/&gt;
+																&lt;/b:if&gt;
+															&lt;/a&gt;
+														&lt;/b:if&gt;
+													&lt;/b:if&gt;
+												&lt;/span&gt;
+
+												&lt;!-- backlinks --&gt;
+												&lt;span class='post-backlinks post-comment-link'&gt;
+													&lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+														&lt;b:if cond='data:post.showBacklinks'&gt;
+															&lt;a class='comment-link' expr:href='data:post.url + &amp;quot;#links&amp;quot;'&gt;
+																&lt;data:top.backlinkLabel/&gt;
+															&lt;/a&gt;
+														&lt;/b:if&gt;
+													&lt;/b:if&gt;
+												&lt;/span&gt;
+
+												&lt;span class='post-icons'&gt;
+													&lt;!-- email post links --&gt;
+													&lt;!-- kzu: removed, useless --&gt;
+													&lt;b:if cond='data:post.emailPostUrl'&gt;
+														&lt;span class='item-action' style='display:none'&gt;
+															&lt;a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'&gt;
+																&lt;img alt='Subscribe by Email' src='http://amz.instedd.org/blogger/mail-to-button.gif'/&gt;
+															&lt;/a&gt;
+														&lt;/span&gt;
+													&lt;/b:if&gt;
+
+													&lt;!-- quickedit pencil --&gt;
+													&lt;b:include data='post' name='postQuickEdit'/&gt;
+	&lt;/span&gt;
+											&lt;/p&gt;
+
+											&lt;p class='post-footer-line post-footer-line-2'&gt;
+												&lt;span class='post-labels'&gt;
+													&lt;b:if cond='data:post.labels'&gt;
+														&lt;data:postLabelsLabel/&gt;
+														&lt;b:loop values='data:post.labels' var='label'&gt;
+															&lt;a expr:href='data:label.url' rel='tag'&gt;
+																&lt;data:label.name/&gt;
+															&lt;/a&gt;
+															&lt;b:if cond='data:label.isLast != &amp;quot;true&amp;quot;'&gt;,&lt;/b:if&gt;
+														&lt;/b:loop&gt;
+													&lt;/b:if&gt;
+												&lt;/span&gt;
+											&lt;/p&gt;
+
+											&lt;p class='post-footer-line post-footer-line-3'/&gt;
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='status-message'&gt;
+									&lt;b:if cond='data:navMessage'&gt;
+										&lt;div class='status-msg-wrap'&gt;
+											&lt;div class='status-msg-body'&gt;
+												&lt;data:navMessage/&gt;
+											&lt;/div&gt;
+											&lt;div class='status-msg-border'&gt;
+												&lt;div class='status-msg-bg'&gt;
+													&lt;div class='status-msg-hidden'&gt;
+														&lt;data:navMessage/&gt;
+													&lt;/div&gt;
+												&lt;/div&gt;
+											&lt;/div&gt;
+										&lt;/div&gt;
+										&lt;div style='clear: both;'/&gt;
+									&lt;/b:if&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='comment-form' var='post'&gt;
+  &lt;div class='comment-form'&gt;
+    &lt;a name='comment-form'/&gt;
+    &lt;b:if cond='data:mobile'&gt;
+      &lt;h4 id='comment-post-message'&gt;
+        &lt;a expr:id='data:widget.instanceId + &amp;quot;_comment-editor-toggle-link&amp;quot;' href='javascript:void(0)'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;&lt;/h4&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/&gt;
+    &lt;b:else/&gt;
+      &lt;h4 id='comment-post-message'&gt;&lt;data:postCommentMsg/&gt;&lt;/h4&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/&gt;
+    &lt;/b:if&gt;
+    &lt;data:post.friendConnectJs/&gt;
+    &lt;data:post.cmtfpIframe/&gt;
+    &lt;b:if cond='data:showCmtPopup'&gt;
+      &lt;div id='comment-popup' style='width:100px;height:20px;'&gt;
+        &lt;iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'&gt;
+        &lt;/iframe&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+    &lt;script type='text/javascript'&gt;
+      BLOG_CMT_createIframe(&amp;#39;&lt;data:post.appRpcRelayPath/&gt;&amp;#39;, &amp;#39;&lt;data:post.communityId/&gt;&amp;#39;);
+    &lt;/script&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='backlinkDeleteIcon' var='backlink'&gt;
+									&lt;span expr:class='&amp;quot;item-control &amp;quot; + data:backlink.adminClass'&gt;
+										&lt;a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'&gt;
+											&lt;span class='delete-comment-icon'&gt;&amp;#160;&lt;/span&gt;
+										&lt;/a&gt;
+									&lt;/span&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='mobile-nextprev'&gt;
+  &lt;div class='blog-pager' id='blog-pager'&gt;
+    &lt;b:if cond='data:newerPageUrl'&gt;
+      &lt;div class='mobile-link-button' id='blog-pager-newer-link'&gt;
+      &lt;a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-newer-link&amp;quot;' expr:title='data:newerPageTitle'&gt;&lt;data:newerPageTitle/&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:if cond='data:olderPageUrl'&gt;
+      &lt;div class='mobile-link-button' id='blog-pager-older-link'&gt;
+      &lt;a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-older-link&amp;quot;' expr:title='data:olderPageTitle'&gt;&lt;data:olderPageTitle/&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='mobile-link-button' id='blog-pager-home-link'&gt;
+    &lt;a class='home-link' expr:href='data:blog.homepageUrl'&gt;&lt;data:homeMsg/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class='mobile-desktop-link'&gt;
+      &lt;a class='home-link' expr:href='data:desktopLinkUrl'&gt;&lt;data:desktopLinkMsg/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class='clear'/&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='postQuickEdit' var='post'&gt;
+									&lt;b:if cond='data:post.editUrl'&gt;
+										&lt;span expr:class='&amp;quot;item-control &amp;quot; + data:post.adminClass'&gt;
+											&lt;a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'&gt;
+											&lt;img alt='' class='icon-action' src='http://www.blogger.com/img/icon18_edit_allbkg.gif'/&gt;											&lt;/a&gt;
+
+&lt;!-- ping FeedBurner --&gt;
+  &lt;a expr:href='&amp;quot;http://www.feedburner.com/fb/a/pingSubmit?bloglink=&amp;quot; + data:blog.homepageUrl' target='_blank' title='Force feed update (ping FeedBurner)'&gt;
+    &lt;img class='icon-action' src='http://amz.instedd.org/blogger/feedburner.gif'/&gt;
+  &lt;/a&gt;
+&lt;/span&gt;
+									&lt;/b:if&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='main' var='top'&gt;
+									&lt;!-- posts --&gt;
+									&lt;div class='blog-posts hfeed'&gt;
+
+										&lt;b:include data='top' name='status-message'/&gt;
+
+										&lt;data:adStart/&gt;
+										&lt;b:loop values='data:posts' var='post'&gt;
+											&lt;b:if cond='data:post.dateHeader'&gt;
+												&lt;h2 class='date-header'&gt;
+													&lt;data:post.dateHeader/&gt;
+												&lt;/h2&gt;
+											&lt;/b:if&gt;
+											&lt;b:include data='post' name='post'/&gt;
+											&lt;b:if cond='data:blog.pageType == &amp;quot;item&amp;quot;'&gt;
+												&lt;b:include data='post' name='comments'/&gt;
+											&lt;/b:if&gt;
+											&lt;b:if cond='data:post.includeAd'&gt;
+												&lt;data:adEnd/&gt;
+												&lt;data:adCode/&gt;
+												&lt;data:adStart/&gt;
+											&lt;/b:if&gt;
+										&lt;/b:loop&gt;
+										&lt;data:adEnd/&gt;
+									&lt;/div&gt;
+
+									&lt;!-- navigation --&gt;
+									&lt;b:include name='nextprev'/&gt;
+
+									&lt;!-- feed links --&gt;
+									&lt;b:include name='feedLinks'/&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='commentDeleteIcon' var='comment'&gt;
+									&lt;span expr:class='&amp;quot;item-control &amp;quot; + data:comment.adminClass'&gt;
+										&lt;a expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'&gt;
+											&lt;span class='delete-comment-icon'&gt;&amp;#160;&lt;/span&gt;
+										&lt;/a&gt;
+									&lt;/span&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='feedLinks'&gt;
+									&lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+										&lt;!-- Blog feed links --&gt;
+										&lt;b:if cond='data:feedLinks'&gt;
+											&lt;div class='blog-feeds'&gt;
+												&lt;!-- kzu: remove as we already provide FeedBurner 
+        &lt;b:include data='feedLinks' name='feedLinksBody'/&gt;
+        --&gt;
+											&lt;/div&gt;
+										&lt;/b:if&gt;
+
+										&lt;b:else/&gt;
+										&lt;!--Post feed links --&gt;
+										&lt;div class='post-feeds'&gt;
+											&lt;b:loop values='data:posts' var='post'&gt;
+												&lt;b:if cond='data:post.allowComments'&gt;
+													&lt;b:if cond='data:post.feedLinks'&gt;
+														&lt;b:include data='post.feedLinks' name='feedLinksBody'/&gt;
+													&lt;/b:if&gt;
+												&lt;/b:if&gt;
+											&lt;/b:loop&gt;
+										&lt;/div&gt;
+									&lt;/b:if&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='mobile-index-post' var='post'&gt;
+  &lt;b:if cond='data:post.dateHeader'&gt;
+    &lt;div class='mobile-index-date'&gt;
+      &lt;div class='date-header'&gt;
+        &lt;span&gt;&lt;data:post.dateHeader/&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/b:if&gt;
+
+  &lt;div class='mobile-post-outer'&gt;
+    &lt;div class='mobile-index-title-outer'&gt;
+      &lt;h3 class='mobile-index-title entry-title'&gt;
+        &lt;a href='javascript:void(0)'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+      &lt;/h3&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;div class='mobile-index-arrow'&gt;
+        &lt;a href='javascript:void(0)'&gt;&amp;amp;rsaquo;&lt;/a&gt;
+      &lt;/div&gt;
+
+      &lt;div class='mobile-post-contents'&gt;
+        &lt;b:if cond='data:post.thumbnailUrl'&gt;
+          &lt;div class='mobile-index-thumbnail'&gt;
+            &lt;div class='Image'&gt;
+              &lt;img expr:src='data:post.thumbnailUrl'/&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/b:if&gt;
+
+        &lt;div class='post-body'&gt;
+          &lt;b:if cond='data:post.snippet'&gt;&lt;data:post.snippet/&gt;&lt;/b:if&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div style='clear: both;'/&gt;
+    &lt;/div&gt;
+
+    &lt;div class='mobile-index-comment'&gt;
+      &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+        &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+          &lt;b:if cond='data:post.allowComments'&gt;
+            &lt;b:if cond='data:post.numComments != 0'&gt;
+              &lt;a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;b:if cond='data:post.numComments == 1'&gt;1 &lt;data:top.commentLabel/&gt;&lt;b:else/&gt;&lt;data:post.numComments/&gt; &lt;data:top.commentLabelPlural/&gt;&lt;/b:if&gt;&lt;/a&gt;
+            &lt;/b:if&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/b:if&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='feedLinksBody' var='links'&gt;
+									&lt;div class='feed-links'&gt;
+										&lt;data:feedLinksMsg/&gt;
+										&lt;b:loop values='data:links' var='f'&gt;
+											&lt;a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'&gt;
+												&lt;data:f.name/&gt; (&lt;data:f.feedType/&gt;)
+											&lt;/a&gt;
+										&lt;/b:loop&gt;
+									&lt;/div&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='comments' var='post'&gt;
+									&lt;div class='comments' id='comments'&gt;
+										&lt;a name='comments'/&gt;
+										&lt;b:if cond='data:post.allowComments'&gt;
+											&lt;h4&gt;
+												&lt;b:if cond='data:post.numComments == 1'&gt;
+													1 &lt;data:commentLabel/&gt;:
+													&lt;b:else/&gt;
+													&lt;data:post.numComments/&gt; &lt;data:commentLabelPlural/&gt;:
+												&lt;/b:if&gt;
+											&lt;/h4&gt;
+
+											&lt;dl id='comments-block'&gt;
+												&lt;b:loop values='data:post.comments' var='comment'&gt;
+													&lt;dt class='comment-author' expr:id='data:comment.anchorName'&gt;
+														&lt;a expr:name='data:comment.anchorName'/&gt;
+														&lt;b:if cond='data:comment.authorUrl'&gt;
+															&lt;a expr:href='data:comment.authorUrl' rel='nofollow'&gt;
+																&lt;data:comment.author/&gt;
+															&lt;/a&gt;
+															&lt;b:else/&gt;
+															&lt;data:comment.author/&gt;
+														&lt;/b:if&gt;
+														&lt;data:commentPostedByMsg/&gt;
+													&lt;/dt&gt;
+													&lt;dd class='comment-body'&gt;
+														&lt;b:if cond='data:comment.isDeleted'&gt;
+															&lt;span class='deleted-comment'&gt;
+																&lt;data:comment.body/&gt;
+															&lt;/span&gt;
+															&lt;b:else/&gt;
+															&lt;p&gt;
+																&lt;data:comment.body/&gt;
+															&lt;/p&gt;
+														&lt;/b:if&gt;
+													&lt;/dd&gt;
+													&lt;dd class='comment-footer'&gt;
+														&lt;span class='comment-timestamp'&gt;
+															&lt;a expr:href='data:comment.url' title='comment permalink'&gt;
+																&lt;data:comment.timestamp/&gt;
+															&lt;/a&gt;
+															&lt;b:include data='comment' name='commentDeleteIcon'/&gt;
+														&lt;/span&gt;
+													&lt;/dd&gt;
+												&lt;/b:loop&gt;
+											&lt;/dl&gt;
+
+											&lt;p class='comment-footer'&gt;
+												&lt;a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;
+													&lt;data:postCommentMsg/&gt;
+												&lt;/a&gt;
+											&lt;/p&gt;
+										&lt;/b:if&gt;
+
+										&lt;div id='backlinks-container'&gt;
+											&lt;div expr:id='data:widget.instanceId + &amp;quot;_backlinks-container&amp;quot;'&gt;
+												&lt;b:if cond='data:post.showBacklinks'&gt;
+													&lt;b:include data='post' name='backlinks'/&gt;
+												&lt;/b:if&gt;
+											&lt;/div&gt;
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;/b:section&gt;
+					&lt;/div&gt;
+
+					&lt;div id='sidebar-wrapper'&gt;
+&lt;div class='homelink'&gt;
+  &lt;a href='http://www.instedd.org'&gt;&lt;img border='0' src='http://amz.instedd.org/home.gif'/&gt;&lt;/a&gt;
+  &lt;a href='http://www.instedd.org/'&gt;InSTEDD Home&lt;/a&gt;
+&lt;/div&gt;
+						&lt;b:section class='sidebar' id='sidebar' preferred='yes'&gt;
+&lt;b:widget id='HTML1' locked='true' title='Subscribe Now' type='HTML'&gt;
+&lt;b:includable id='main'&gt;
+									&lt;!-- only display title if it's non-empty --&gt;
+									&lt;b:if cond='data:title != &amp;quot;&amp;quot;'&gt;
+										&lt;h2 class='title'&gt;
+											&lt;data:title/&gt;
+										&lt;/h2&gt;
+									&lt;/b:if&gt;
+									&lt;div class='widget-content'&gt;
+										&lt;data:content/&gt;
+									&lt;/div&gt;
+
+									&lt;b:include name='quickedit'/&gt;
+								&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'&gt;
+&lt;b:includable id='toggle' var='interval'&gt;
+									&lt;b:if cond='data:interval.toggleId'&gt;
+										&lt;b:if cond='data:interval.expclass == &amp;quot;expanded&amp;quot;'&gt;
+											&lt;a class='toggle' expr:href='data:widget.actionUrl + &amp;quot;&amp;amp;action=toggle&amp;quot; +       &amp;quot;&amp;amp;dir=close&amp;amp;toggle=&amp;quot; + data:interval.toggleId +       &amp;quot;&amp;amp;toggleopen=&amp;quot; + data:toggleopen'&gt;
+												&lt;span class='zippy toggle-open'&gt;&amp;#9660; &lt;/span&gt;
+											&lt;/a&gt;
+											&lt;b:else/&gt;
+											&lt;a class='toggle' expr:href='data:widget.actionUrl + &amp;quot;&amp;amp;action=toggle&amp;quot; +         &amp;quot;&amp;amp;dir=open&amp;amp;toggle=&amp;quot; + data:interval.toggleId +         &amp;quot;&amp;amp;toggleopen=&amp;quot; + data:toggleopen'&gt;
+												&lt;span class='zippy'&gt;&amp;#9658; &lt;/span&gt;
+											&lt;/a&gt;
+										&lt;/b:if&gt;
+									&lt;/b:if&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='interval' var='intervalData'&gt;
+									&lt;b:loop values='data:intervalData' var='i'&gt;
+										&lt;ul&gt;
+											&lt;li expr:class='&amp;quot;archivedate &amp;quot; + data:i.expclass'&gt;
+												&lt;b:include data='i' name='toggle'/&gt;
+												&lt;a class='post-count-link' expr:href='data:i.url'&gt;
+													&lt;data:i.name/&gt;
+												&lt;/a&gt;
+												(&lt;span class='post-count'&gt;
+													&lt;data:i.post-count/&gt;
+												&lt;/span&gt;)
+												&lt;b:if cond='data:i.data'&gt;
+													&lt;b:include data='i.data' name='interval'/&gt;
+												&lt;/b:if&gt;
+												&lt;b:if cond='data:i.posts'&gt;
+													&lt;b:include data='i.posts' name='posts'/&gt;
+												&lt;/b:if&gt;
+											&lt;/li&gt;
+										&lt;/ul&gt;
+									&lt;/b:loop&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='flat' var='data'&gt;
+									&lt;ul&gt;
+										&lt;b:loop values='data:data' var='i'&gt;
+											&lt;li class='archivedate'&gt;
+												&lt;a expr:href='data:i.url'&gt;
+													&lt;data:i.name/&gt;
+												&lt;/a&gt; (&lt;data:i.post-count/&gt;)
+											&lt;/li&gt;
+										&lt;/b:loop&gt;
+									&lt;/ul&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='menu' var='data'&gt;
+									&lt;select expr:id='data:widget.instanceId + &amp;quot;_ArchiveMenu&amp;quot;'&gt;
+										&lt;option value=''&gt;
+											&lt;data:title/&gt;
+										&lt;/option&gt;
+										&lt;b:loop values='data:data' var='i'&gt;
+											&lt;option expr:value='data:i.url'&gt;
+												&lt;data:i.name/&gt; (&lt;data:i.post-count/&gt;)
+											&lt;/option&gt;
+										&lt;/b:loop&gt;
+									&lt;/select&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='posts' var='posts'&gt;
+									&lt;ul class='posts'&gt;
+										&lt;b:loop values='data:posts' var='i'&gt;
+											&lt;li&gt;
+												&lt;a expr:href='data:i.url'&gt;
+													&lt;data:i.title/&gt;
+												&lt;/a&gt;
+											&lt;/li&gt;
+										&lt;/b:loop&gt;
+									&lt;/ul&gt;
+								&lt;/b:includable&gt;
+&lt;b:includable id='main'&gt;
+									&lt;b:if cond='data:title'&gt;
+										&lt;h2&gt;
+											&lt;data:title/&gt;
+										&lt;/h2&gt;
+									&lt;/b:if&gt;
+									&lt;div class='widget-content'&gt;
+										&lt;div id='ArchiveList'&gt;
+											&lt;div expr:id='data:widget.instanceId + &amp;quot;_ArchiveList&amp;quot;'&gt;
+												&lt;b:if cond='data:style == &amp;quot;HIERARCHY&amp;quot;'&gt;
+													&lt;b:include data='data' name='interval'/&gt;
+												&lt;/b:if&gt;
+												&lt;b:if cond='data:style == &amp;quot;FLAT&amp;quot;'&gt;
+													&lt;b:include data='data' name='flat'/&gt;
+												&lt;/b:if&gt;
+												&lt;b:if cond='data:style == &amp;quot;MENU&amp;quot;'&gt;
+													&lt;b:include data='data' name='menu'/&gt;
+												&lt;/b:if&gt;
+											&lt;/div&gt;
+										&lt;/div&gt;
+										&lt;b:include name='quickedit'/&gt;
+									&lt;/div&gt;
+								&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;b:widget id='Label1' locked='false' title='Labels' type='Label'&gt;
+&lt;b:includable id='main'&gt;
+									&lt;b:if cond='data:title'&gt;
+										&lt;h2&gt;
+											&lt;data:title/&gt;
+										&lt;/h2&gt;
+									&lt;/b:if&gt;
+									&lt;div class='widget-content'&gt;
+										&lt;ul&gt;
+											&lt;b:loop values='data:labels' var='label'&gt;
+												&lt;li&gt;
+													&lt;b:if cond='data:blog.url == data:label.url'&gt;
+														&lt;data:label.name/&gt;
+														&lt;b:else/&gt;
+														&lt;a expr:href='data:label.url'&gt;
+															&lt;data:label.name/&gt;
+														&lt;/a&gt;
+													&lt;/b:if&gt;
+													(&lt;data:label.count/&gt;)
+												&lt;/li&gt;
+											&lt;/b:loop&gt;
+										&lt;/ul&gt;
+
+										&lt;b:include name='quickedit'/&gt;
+									&lt;/div&gt;
+								&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;b:widget id='HTML2' locked='false' title='' type='HTML'&gt;
+&lt;b:includable id='main'&gt;
+  &lt;!-- only display title if it's non-empty --&gt;
+  &lt;b:if cond='data:title != &amp;quot;&amp;quot;'&gt;
+    &lt;h2 class='title'&gt;&lt;data:title/&gt;&lt;/h2&gt;
+  &lt;/b:if&gt;
+  &lt;div class='widget-content'&gt;
+    &lt;data:content/&gt;
+  &lt;/div&gt;
+
+  &lt;b:include name='quickedit'/&gt;
+&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;/b:section&gt;
+					&lt;/div&gt;
+
+					&lt;!-- spacer for skins that want sidebar and main to be the same height--&gt;
+					&lt;div class='clear'&gt;&amp;#160;&lt;/div&gt;
+
+				&lt;/div&gt;
+				&lt;!-- end content-wrapper --&gt;
+
+				&lt;div id='footer-wrapper'&gt;
+					&lt;b:section class='footer' id='footer'/&gt;
+				&lt;/div&gt;
+
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;!-- end outer-wrapper --&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/template/default'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/template/default'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_PUBLISHING_MODE</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of publishing done for this blog.</title><content type='text'>PUBLISH_MODE_HOSTED</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_PUBLISHING_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_PUBLISHING_MODE'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_NAME</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The name of the blog</title><content type='text'>Mary Jane Marcus</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_NAME'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_NAME'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_DESCRIPTION</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>A description of the blog</title><content type='text'>From the Ground Up</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_DESCRIPTION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_DESCRIPTION'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_PROMOTED</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog can be promoted on Blogger</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_PROMOTED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_PROMOTED'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_SEARCHABLE</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog should be indexed by search engines</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_SEARCHABLE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_SEARCHABLE'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_ADULT_CONTENT</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog contains adult content</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_ADULT_CONTENT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_ADULT_CONTENT'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_QUICK_EDITING</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether Quick Editing is enabled</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_QUICK_EDITING'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_QUICK_EDITING'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_EMAIL_POST_LINKS</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show a link for users to e-mail posts</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_EMAIL_POST_LINKS'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_EMAIL_POST_LINKS'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_MAX_NUM</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Maximum number of things to show on the main page"</title><content type='text'>7</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_MAX_NUM'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_MAX_NUM'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_MAX_UNIT</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Unit of things to show on the main page</title><content type='text'>POSTS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_MAX_UNIT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_MAX_UNIT'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_DATE_FORMAT</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the date header format</title><content type='text'>26</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_DATE_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_DATE_FORMAT'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_ARCHIVE_DATE_FORMAT</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the archive index date format</title><content type='text'>9</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_ARCHIVE_DATE_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_ARCHIVE_DATE_FORMAT'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_TIME_STAMP_FORMAT</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the time stamp format</title><content type='text'>27</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_TIME_STAMP_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_TIME_STAMP_FORMAT'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_TIME_ZONE</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The time zone for this blog</title><content type='text'>America/Los_Angeles</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_TIME_ZONE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_TIME_ZONE'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_LOCALE</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Language for this blog</title><content type='text'>en_US</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_LOCALE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_LOCALE'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_CONVERT_LINE_BREAKS</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to convert line breaks into &lt;br /&gt; tags in post editor</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_CONVERT_LINE_BREAKS'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_CONVERT_LINE_BREAKS'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_SHOW_TITLE</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show the title field</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_SHOW_TITLE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_SHOW_TITLE'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_SHOW_URL</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show a related link box in the post composer</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_SHOW_URL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_SHOW_URL'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_FLOAT_ALIGNMENT</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether float alignment is enabled for the blog</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_FLOAT_ALIGNMENT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_FLOAT_ALIGNMENT'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_POST_TEMPLATE</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The template for blog posts</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_POST_TEMPLATE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_POST_TEMPLATE'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_COMMENTS_ALLOWED</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show comments</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENTS_ALLOWED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENTS_ALLOWED'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_COMMENT_ACCESS</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Who can comment</title><content type='text'>BLOGGERS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_ACCESS'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_ACCESS'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_DEFAULT_COMMENTS_MODE</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Default comment mode for posts</title><content type='text'>DEFAULT_HAVE_COMMENTS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_DEFAULT_COMMENTS_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_DEFAULT_COMMENTS_MODE'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_BACKLINKS_ALLOWED</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show comment backlinks on the blog</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_BACKLINKS_ALLOWED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_BACKLINKS_ALLOWED'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_DEFAULT_BACKLINKS_MODE</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Default backlinks mode for posts</title><content type='text'>DEFAULT_HAVE_BACKLINKS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_DEFAULT_BACKLINKS_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_DEFAULT_BACKLINKS_MODE'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_COMMENTS_TIME_STAMP_FORMAT</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Comment time stamp format number</title><content type='text'>29</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENTS_TIME_STAMP_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENTS_TIME_STAMP_FORMAT'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_COMMENT_FORM_LOCATION</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog comment form location</title><content type='text'>FULL_PAGE</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_FORM_LOCATION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_FORM_LOCATION'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_COMMENT_MODERATION</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to enable comment moderation</title><content type='text'>DISABLED</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_MODERATION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_MODERATION'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_COMMENT_MODERATION_DELAY</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Number of days after which new comments are subject to moderation</title><content type='text'>14</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_MODERATION_DELAY'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_MODERATION_DELAY'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_COMMENT_CAPTCHA</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to require commenters to complete a Captcha</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_CAPTCHA'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_CAPTCHA'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_COMMENT_PROFILE_IMAGES</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show profile images in comments</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_PROFILE_IMAGES'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_PROFILE_IMAGES'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_COMMENT_EMAIL</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>List of e-mail addresses to send notifications of new comments to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_EMAIL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_EMAIL'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_COMMENT_MODERATION_EMAIL</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Email address to send notifications of new comments needing moderation to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_MODERATION_EMAIL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_MODERATION_EMAIL'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_COMMENT_MESSAGE</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog comment message</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_MESSAGE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_MESSAGE'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_ARCHIVE_FREQUENCY</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>How frequently this blog should be archived</title><content type='text'>MONTHLY</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_ARCHIVE_FREQUENCY'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_ARCHIVE_FREQUENCY'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_BY_POST_ARCHIVING</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to provide an archive page for each post</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_BY_POST_ARCHIVING'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_BY_POST_ARCHIVING'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_POST_FEED</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for blog posts</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_POST_FEED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_POST_FEED'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_COMMENT_FEED</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for blog comments</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_FEED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_COMMENT_FEED'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_PER_POST_FEED</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for per-post comments</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_PER_POST_FEED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_PER_POST_FEED'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_FEED_REDIRECT_URL</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>URL to redirect post feed requests to</title><content type='text'>http://feeds.feedburner.com/MaryJaneMarcus</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_FEED_REDIRECT_URL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_FEED_REDIRECT_URL'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_POST_FEED_FOOTER</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Footer to append to the end of each entry in the post feed</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_POST_FEED_FOOTER'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_POST_FEED_FOOTER'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_SEND_EMAIL</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Comma separated list of emails to send new blog posts to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_SEND_EMAIL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_SEND_EMAIL'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_READ_ACCESS_MODE</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The access type for the readers of the blog.</title><content type='text'>PUBLIC</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_READ_ACCESS_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_READ_ACCESS_MODE'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_READER_PERMISSION</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of emails for users who have permission to read the blog.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_READER_PERMISSION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_READER_PERMISSION'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_AUTHOR_PERMISSION</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of authors' emails who have permission to publish.</title><content type='text'>maryjane.marcus@gmail.com</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_AUTHOR_PERMISSION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_AUTHOR_PERMISSION'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.settings.BLOG_ADMIN_PERMISSION</id><published>2007-12-13T00:25:59.285-08:00</published><updated>2010-12-15T18:45:01.314-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of administrators' emails for the blog.</title><content type='text'>edujez@gmail.com,sandro.franchi@gmail.com</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_ADMIN_PERMISSION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/settings/BLOG_ADMIN_PERMISSION'/><author><name>Eduardo Jezierski</name><uri>http://www.blogger.com/profile/12759252532966274907</uri><email>edjez@instedd.org</email></author></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-8444553976490326814</id><published>2010-01-18T22:14:00.000-08:00</published><updated>2010-01-19T20:20:34.683-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Ebyen kile tranbleman de te a ap fin pase potoprens en?</title><content type='html'>&lt;i&gt;When is the earthquake going to end&lt;/i&gt;?  is what the phrase above means in Kreyol, and it is one of the messages our team in Haiti received today. It is a stark reminder of how much suffering people are experiencing in Haiti right now. &lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;How is technology aiding in the relief efforts? How is the &lt;a href="http://www.reuters.com/article/idUSTRE60G16420100117"&gt;Emergency Information Service&lt;/a&gt; I described yesterday working on the ground? As of earlier today, over 700 people had subscribed to the service, and EIS was able to send out several alerts to the community about where to get medical care and help.  Translated messages can be viewed at &lt;a href="http://haiti.ushahidi.com/"&gt;Ushahidi's Haiti site&lt;/a&gt;. &lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Here is one example of how technology helped our teams from the United States and Haiti coordinate relief across the ocean using EIS and other tools in near real time. It started when one of our US-based Haitian-American translators alerted us to an email she received from a Haitian USENET group Corbetre of  a hospital available to receive patients.  She told me about it over &lt;a href="http://www.skype.com/welcomeback/"&gt;skype&lt;/a&gt;, and I alerted our team in Haiti over a skype chat (which they were accessing through an &lt;a href="http://www.inmarsat.com/Services/Land/BGAN/default.aspx"&gt;Inmarsat BGAN&lt;/a&gt; satellite).  Reuters confirmed the hospital did indeed have room, after which another one of our US-based translators turned the report into 140 Kreyol characters, sent it over skype back to Haiti, where it went out over the EIS System to the 700 subscribers. All of this happened within 10 minutes of us learning about the hospital.  &lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;I wish I could say that, because of what we did, lives were immediately saved. Unfortunately, reality is not that straightforward.  It turns out that the hospital is a 5 hour drive from Port au Prince and the road is so treacherous it requires helicopters to transport patients there (so we also contacted the U.S. military helicopter coordinators).  Technology is but one critical piece of a much larger aid effort.  Let us hope we can soon answer our Haitian friend's text "when will it end?" with now. &lt;/div&gt;</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/8444553976490326814/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=8444553976490326814' title='2 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/8444553976490326814'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/8444553976490326814'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2010/01/ki-jan-ou-rele.html' title='Ebyen kile tranbleman de te a ap fin pase potoprens en?'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>2</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-9194233688794248375</id><published>2010-01-17T16:43:00.000-08:00</published><updated>2010-01-18T09:08:10.038-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Emergency Information Service Launched in Haiti</title><content type='html'>A free and open source&lt;a href="http://instedd.org/node/451"&gt; Emergency Information Service&lt;/a&gt; InSTEDD developed with &lt;a href="http://www.foundation.reuters.com/trust.org/page/files/HomePage.html"&gt;Thomson Reuters Foundation&lt;/a&gt; &lt;a href="http://www.reuters.com/article/idUSTRE60G16420100117"&gt;was just launched&lt;/a&gt; in Haiti late Saturday night, an incredible feat after late-night Kreyol translations, 15 temporarily missing bags in Port au Prince and a faltering telecom infrastructure.  We hope that this information sharing tool will make a difference in the lives of so many Haitians who are suffering right now.&lt;br /&gt;&lt;br /&gt;EIS allows people in Haiti to report problems (missing persons, shelter, food issues) over SMS and to get accurate information by neighborhood.  Thomson Reuters is working closely with the&lt;a href="http://www.ifrc.org/"&gt; International Federation of the Red Cross and Red Crescent Societies&lt;/a&gt; so that critical information (like where medical care, food is available) will get to the general public and community organizations. After its launch Saturday night, hundreds of messages have already been sent into the system.   Read more about exactly how the SMS reporting works &lt;a href="http://www.reuters.com/article/idUSTRE60G16420100117"&gt;here&lt;/a&gt;.  We are also working closely with  &lt;a href="http://www.ushahidi.com/"&gt;Ushahidi&lt;/a&gt;, who are also receiving the SMS messages, translating them and posting them on &lt;a href="http://haiti.ushahidi.com/main"&gt;their site&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;InSTEDD got the call from Thomson Reuters Foundation to go to Haiti last Tuesday night, a few hours after the earthquake.  We had built the EIS &lt;img style="float:left; margin:0 10px 10px 0;cursor:pointer; cursor:hand;width: 400px; height: 300px;" src="http://2.bp.blogspot.com/_-lgim8VyY4Y/S1QgoSgK1lI/AAAAAAAAANE/adbL3TdLDhI/s400/haiti_Nico_Eric.jpg" border="0" alt="" id="BLOGGER_PHOTO_ID_5427999327421912658" /&gt;system last year, an extension of our &lt;a href="http://instedd.org/evolve"&gt;RIFF platform&lt;/a&gt;, and it was first tested in a simulation exercise in Indonesia in September.  Haiti is the first time it is being used in a real disaster.  Our EIS lead Nico flew out Wednesday to the Dominican Republic, and arrived in Haiti by Friday to support the EIS deployment. Nico and our CEO Eric are camping near the airfield in Port au Prince (pictured left).&lt;br /&gt;&lt;br /&gt;On Thursday, we started translating the EIS system.  We put out an email request for translators, and received responses from all over the Untied States, the UK and even from Haiti. Within 48 hours the almost the entire EIS site was translated into French and Kreyol. You can see &lt;a href="http://eis.instedd.org/Directory/Search"&gt;those translations here&lt;/a&gt; (with fake data from our Indonesia Tomohon pilot).   Click on the language in the top right corner, and then click on Tomohon.  We used &lt;a href="http://lang.instedd.org/"&gt;Pootle&lt;/a&gt; to get the EIS website translated.  Thank you translators!&lt;br /&gt;&lt;br /&gt;Led by our CEO Eric Rasmussen, InSTEDD has also been involved in coordinating a number of communication efforts as well, and ensuring that the resources get to those who need them. &lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;a href="http://instedd.org/donate"&gt;Donate here to support our efforts in Haiti. &lt;/a&gt;&lt;/div&gt;</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/9194233688794248375/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=9194233688794248375' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/9194233688794248375'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/9194233688794248375'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2010/01/emergency-information-service-launched.html' title='Emergency Information Service Launched in Haiti'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><media:thumbnail xmlns:media='http://search.yahoo.com/mrss/' url='http://2.bp.blogspot.com/_-lgim8VyY4Y/S1QgoSgK1lI/AAAAAAAAANE/adbL3TdLDhI/s72-c/haiti_Nico_Eric.jpg' height='72' width='72'/><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-8282856049340225987</id><published>2009-07-26T08:28:00.001-07:00</published><updated>2009-07-26T08:28:55.442-07:00</updated><app:control xmlns:app='http://purl.org/atom/app#'><app:draft>yes</app:draft></app:control><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'></title><content type='html'>The real meaning of capacity building&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;http://blogs.nyu.edu/fas/dri/aidwatch/2009/07/we_already_tried_this_in_1938.html&lt;br /&gt;&lt;br /&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/8282856049340225987'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/8282856049340225987'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-822936004103408180</id><published>2009-01-05T13:20:00.000-08:00</published><updated>2009-02-09T22:27:15.289-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Social networking 101</title><content type='html'>You would think as an employee at InSTEDD I would be a tech wizardress!  I am one of the people who came here with an NGO background to be a liaison between our tech visionaries and the communities/governments we serve.   Now that I finally have some time to breathe after spending nearly 5 months of last year in Cambodia, I am really delving into the tech world and wanted to share (for those who are non-tech) resources I am finding useful.&lt;br /&gt;&lt;br /&gt;InSTEDD introduces collaboration technologies tailored specifically to the needs of the public health and humanitarian communities.   So what is collaboration software, I had to ask myself?   Collaboration software, according to our CTO Robert Kirkpatrick, helps people work together to solve a problem or challenge.  Social networking software can help collaboration by helping you identify potential people to help you solve a problem, but it does not in and of itself lead to collaboration.&lt;br /&gt;&lt;br /&gt;Here are a few interesting maps to help you understand the social networking ecosystem:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://scobleizer.com/2007/11/02/social-media-starfish/"&gt;The Social Media Starfish&lt;/a&gt; by Robert Scobble (improved by Darren Barefoot) is a good beginning overview; &lt;/li&gt;&lt;li&gt;&lt;a href="http://www.briansolis.com/2009/02/2009-semmys-honor-conversation-prism.html"&gt;The Conversation&lt;/a&gt;&lt;a href="http://www.briansolis.com/2009/02/2009-semmys-honor-conversation-prism.html"&gt; Prism&lt;/a&gt; by Brian Solis and Jesse Thomas is more recent and detailed.&lt;/li&gt;&lt;/ul&gt;The domain of tech for social good is skyrocketing, and many great sources are emerging. One of my favorite tech for good bloggers is &lt;a href="http://beth.typepad.com/"&gt;Beth Kantor&lt;/a&gt;, who I actually discovered because she helped put on the first blogger forum in Cambodia.  She helps non-profits learn how to use social media, and while her blogs are more geared towards internet users, I find them very interesting.  She also posts useful twits (I mean "&lt;a href="http://twitter.com/"&gt;tweets&lt;/a&gt;") compared to those I find myself typing.&lt;br /&gt;&lt;br /&gt;A few other great places to learn about tech for good:&lt;br /&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://mobileactive.org/"&gt;MobileActive&lt;/a&gt;: a network of engineers and activists working to use mobile technology for good.  They are a great place to start if you are wanting to research what is already  happening.  Subscribe to &lt;a href="http://mobileactive.org/blog/2"&gt;their blog too&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.kiwanja.net/database/kiwanja_search.php"&gt;Kiwanja mobile application database&lt;/a&gt;:  &lt;a href="http://www.frontlinesms.com/"&gt;FrontlineSMS&lt;/a&gt; creator Ken Banks has a great database to look for mobile projects around the world. &lt;/li&gt;&lt;/ul&gt;Tech newbies need not be afraid.  Once we overcome the lingo, in the end it is all about how we help people improve their lives and their communities.&lt;br /&gt;&lt;br /&gt;p.s.  &lt;a href="http://web4dev.org/index.php/Main_Page"&gt;UNICEF's Web4Dev&lt;/a&gt; "Innovation for Access" runs in New York February 11-13 (our CTO will be moderating a panel on Monitoring and Evaluation &lt;a href="http://web4dev.org/index.php/Agenda"&gt;the morning of Feb 12&lt;/a&gt;).  Parts of the conference will be &lt;a href="http://web4dev.org/index.php/Web4Dev_Virtual_Connectivity"&gt;streamed live&lt;/a&gt; if you are interested.  Ok, I am officially a geek.</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/822936004103408180/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=822936004103408180' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/822936004103408180'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/822936004103408180'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2009/01/social-networking-101.html' title='Social networking 101'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-1895105003628924008</id><published>2008-11-09T03:06:00.001-08:00</published><updated>2008-11-09T03:06:18.125-08:00</updated><app:control xmlns:app='http://purl.org/atom/app#'><app:draft>yes</app:draft></app:control><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Unqiue qualities of communities</title><content type='html'>The Tonle Sap River reminds us that every ecosystem, culture and community is unique.   Our flexible software platform approach, and co-design in the communities of concern, is how we hope to ensure the unique qualities are reflected in the tools that are developed.  &lt;br /&gt;&lt;br /&gt;The Tonle Sap is the only river in the world that flows in different directions depending on the time of year; we hope that our approach, to co-create and customize locally, is a way to ensure that the unique qualities of every community around the world are accounted for. &lt;br /&gt;&lt;br /&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/1895105003628924008'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/1895105003628924008'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-6447447849368366695</id><published>2008-11-09T02:20:00.000-08:00</published><updated>2008-11-09T03:20:21.415-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>An Auspicious Beginning in Cambodia</title><content type='html'>&lt;a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_-lgim8VyY4Y/SRa7kiXHyMI/AAAAAAAAAG4/R5UqH7KUEvM/s1600-h/IMG_0442.JPG"&gt;&lt;img style="margin: 0pt 0pt 10px 10px; float: right; cursor: pointer; width: 306px; height: 229px;" src="http://2.bp.blogspot.com/_-lgim8VyY4Y/SRa7kiXHyMI/AAAAAAAAAG4/R5UqH7KUEvM/s320/IMG_0442.JPG" alt="" id="BLOGGER_PHOTO_ID_5266603050629843138" border="0" /&gt;&lt;/a&gt;Our first year in Southeast Asia is coming to a close.  It seems apropos that this final trip of the year for me coincides with the &lt;a href="http://globalvoicesonline.org/2005/11/19/cambodia-water-festival-highlights/"&gt;Cambodian Water Festival, Bon Om Tuk&lt;/a&gt;.  The Water Festival, centered around 300 pairs of &lt;a href="http://en.wikipedia.org/wiki/Bayon"&gt;Bayon&lt;/a&gt;-inspired boats competing in front of the &lt;a href="http://cambodiatraveller.info/history-of-the-royal-palace/"&gt;Royal Palace&lt;/a&gt;, is an homage to &lt;a href="http://whc.unesco.org/en/list/668"&gt;Angkor&lt;/a&gt;'s ancient navy.  The Water Festival also marks a profound ecological transition:  the end of the rainy season during which the waters of the Tonle Sap River reverse and flow back into the Mekong.  During this change, the waters become still.             &lt;br /&gt;&lt;br /&gt;&lt;span style="font-weight: bold;"&gt;(PHOTO:  Team training for Water Festival.)&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;At InSTEDD, we have been racing to the finish line, and I am grateful for the still waters to reflect upon our first year and prepare for the years to come.  It has been amazing to see an idea -- &lt;span style="font-style: italic;"&gt;that free, open source software that helps people work better &lt;span style="font-weight: bold;"&gt;together&lt;/span&gt; &lt;/span&gt;&lt;span style="font-style: italic;"&gt;can make a real difference to the domains of public health and humanitarian response&lt;/span&gt; -- come to fruition.&lt;br /&gt;&lt;br /&gt;We started the year with a set of possibilities, and found ourselves at the end of the year with eighty Cambodians doing a pandemic flu simulation using &lt;a href="http://instedd.org/smsgeochat"&gt;geochat&lt;/a&gt; near the Cambodian-Laos border.  We started the year meeting in cafes, figuring out who is who, and ended the year with an Innovation Laboratory where the software is being co-developed and spearheaded by people who live here in partnership with two local technology NGOs, &lt;a href="http://www.yejj.com/"&gt;Yejj&lt;/a&gt; and &lt;a href="http://www.digitaldividedata.org/"&gt;Digital Divide Data&lt;/a&gt;.  There were many challenges we faced along the way, but it has all been worth it to see what is happening now. &lt;br /&gt;&lt;br /&gt;Now that we have laid a foundation, we are ready, in these still waters, to dive deeply over the next year.  We look forward to working with all of you to ensure that we &lt;span style="font-style: italic;"&gt;are&lt;/span&gt; making a difference.</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/6447447849368366695/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=6447447849368366695' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/6447447849368366695'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/6447447849368366695'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/11/auspicious-beginning-in-cambodia.html' title='An Auspicious Beginning in Cambodia'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><media:thumbnail xmlns:media='http://search.yahoo.com/mrss/' url='http://2.bp.blogspot.com/_-lgim8VyY4Y/SRa7kiXHyMI/AAAAAAAAAG4/R5UqH7KUEvM/s72-c/IMG_0442.JPG' height='72' width='72'/><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-4745980544049305621</id><published>2008-05-07T12:51:00.000-07:00</published><updated>2008-05-07T12:52:33.643-07:00</updated><app:control xmlns:app='http://purl.org/atom/app#'><app:draft>yes</app:draft></app:control><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Mesh4X what???</title><content type='html'>I adore my colleague Ed Jezierski.  But when he writes about Mesh4X and Twitter bots, my eyes start to spin. &lt;br /&gt;&lt;br /&gt;For those of us who are newer to the technology sphere, the language of tech can be quite intimidating.  That is where Common Craft comes to the rescue.&lt;br /&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/4745980544049305621'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/4745980544049305621'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-7707425946160394371</id><published>2008-05-06T19:05:00.000-07:00</published><updated>2008-05-07T12:44:16.340-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Empowerment practice explored...</title><content type='html'>Like my colleague &lt;a href="http://edjez.instedd.org/"&gt;Ed Jezierski&lt;/a&gt;, I want to share my concern for the people in Myanmar.  I just spoke with a Burmese colleague in Bangkok who told me her family in Yangon is fortunately safe and unharmed.  She described the damage in downtown Yangon as largely to trees and satellites on top of buildings.  Electricity has been cut off but some people have generators.&lt;br /&gt;&lt;br /&gt;Today I continue to explore the elements of effective community-based practice. My &lt;a href="http://maryjanemarcus.instedd.org/2008/04/get-inspired.html"&gt;previous post&lt;/a&gt; was on the positive model Betty Makoni exemplifies for how to address serious social  challenges, like domestic violence and rape.  Her &lt;a href="http://www.gcn.org.zw/"&gt;Girl Child Network&lt;/a&gt; employs true empowerment practice.  This program, based on a network of girls' clubs,  fosters the seeds of strength within the girls in the programs and encourages them to lead and effect change.&lt;br /&gt;&lt;br /&gt;Empowerment practice is an overused word for those of us in the social work field.  Everyone wants to engage in empowerment practice.  One way to begin is to use a method described in an earlier &lt;a href="http://maryjanemarcus.instedd.org/2008/01/on-to-cambodia-in-search-of-assetsnot.html"&gt;post&lt;/a&gt; called asset mapping, which is also nicely described in the &lt;a href="http://backspace.com/notes/2004/06/what-is-asset-mapping.php"&gt;Social Design Notes&lt;/a&gt;.  Another useful perspective is described as &lt;a href="http://guide.helpingamericasyouth.gov/programtool-factors.cfm"&gt;risk and protective factors&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Most of us know about risk factors - a history of breast cancer can be a risk factor for developing breast cancer.  In infectious disease, poverty and malnutrition can be a particularly pernicious risk factors.  According to the &lt;a href="http://www.globalhealth.org/view_top.php3?id=228"&gt;Global Health Council&lt;/a&gt;, "poverty not only characterizes the circumstances in which infectious diseases thrive, but the cycle of poverty is exacerbated by lost productivity, missed educational opportunities, and high health-care costs for the affected and their families."&lt;br /&gt;&lt;br /&gt;Fortunately, poverty alone does not tell the whole story.  Even in the midst of significant stressors, some people have positive outcomes.  Protective factors - those factors that contribute to resiliency - are one place to look.&lt;br /&gt;&lt;br /&gt;One of the early innovators of the term protective factors is developmental psychologist &lt;a href="http://hcd.ucdavis.edu/faculty/webpages/werner/"&gt;Emmy Werner&lt;/a&gt;, who did a &lt;a href="http://www.amazon.com/children-Kauai-longitudinal-prenatal-period/dp/0870228609"&gt;groundbreaking longitudinal study&lt;/a&gt; on all of the children born in one year in Kauai, Hawaii.  What was surprising about her work is that many of these children who were born into high risk households (substance abuse, etc) had successful outcomes. She found that 'protective factors' distinguished these resilient children.  One of the most important protective factors was having a strong relationship with a nonparent caretaker or a community organization like the YMCA.&lt;br /&gt;&lt;br /&gt;Social interventions (such as Big Brother/Big Sister) mimic and foster these protective factors.  What intrigues me about this study is not just the resiliency research, but what they found to aid resilience -- social support and encouragement.&lt;br /&gt;&lt;br /&gt;When we look at infectious disease in Southeast Asia for our &lt;a href="http://instedd.org/mcp"&gt;Mekong Collaboration Program&lt;/a&gt;, we need to look not just at risk factors, but also at resiliency or protective factors:  what are those qualities that make a community, village or family more likely to resist and respond to infectious disease outbreaks?   Ultimately,  the social and economic development of communities will be more important than fostering any single resiliency factors.   In the meantime, stronger social networks strengthened by collaboration technology may help communities and public health officials respond more quickly and effectively.</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/7707425946160394371/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=7707425946160394371' title='1 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/7707425946160394371'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/7707425946160394371'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/05/empowerment-practice-explored.html' title='Empowerment practice explored...'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>1</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-8143134964367520177</id><published>2008-04-25T17:23:00.000-07:00</published><updated>2008-04-25T17:58:44.790-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Get inspired...</title><content type='html'>Wednesday night I saw Betty Makoni speak -- Zimbabwean activist and 2008 Recipient of the &lt;a href="http://www.amnestyusa.org/the-ginetta-sagan-fund/2008-recipient-of-the-ginetta-sagan-award/page.do?id=1104607&amp;amp;n1=2&amp;amp;n2=762&amp;amp;n3=23"&gt;Ginetta Sagan Amnesty International Award for Women's and Children's Rights&lt;/a&gt; -- and I am still on a high from the event.  &lt;br /&gt;&lt;br /&gt;I have realized, after a career trying to improve the conditions in the world, it is really important at least every quarter to hear an inspirational person who reminds you why you are doing this work. &lt;br /&gt;&lt;br /&gt;Betty Makoni is such a person.  She embodies the word 'empowerment' and models how we can support communities to claim their own destinies.  She has built a network of &lt;a href="http://www.gcn.org.zw/"&gt;girls' clubs in Zimbabwe&lt;/a&gt;, now numbering over 30,000 girls, and these clubs develop strategies for their own growth and enhancement.  Many of the members are victims of rape and domestic violence, much like Betty Makoni, who was raped at age 6 and who saw her mother killed in a domestic violence a few years later.  But rather than give these girls a handout, Betty invites them to 'reach for the sky', heal their wounds, challenge societal norms around violence and build skills to live successful lives.    She teaches girls to use the words donors use -- like 'strategic planning' -- and claim them for their own. &lt;br /&gt;&lt;br /&gt;Her Girl Child Network reminds me of the elements of successful community programs: &lt;br /&gt;&lt;ul&gt;&lt;li&gt;They tap into the strengths of people and challenge them to grow and succeed;  many programs for sexual abuse victims are 'survivor' oriented.  Betty wants her girls to thrive.  Her healing camp for rape victims is called an "Empowerment Camp."&lt;br /&gt;&lt;/li&gt;&lt;li&gt;They are not just a 'program' but are part of a movement to effect societal change, in this case the attitudes towards girls and women; &lt;br /&gt;&lt;/li&gt;&lt;li&gt;They have their own energy - in this case the energy of the girls - to keep it going and growing.   Betty does not have to set up girls' clubs, though she is usually there for their inauguration.   They can be set up by girls' themselves and thus draw on the energy of large groups of people.  &lt;/li&gt;&lt;/ul&gt;At the end of her talk, she implored the audience not just to send emails, but to stand in solidarity with her and her movement who are suffering under the current Zimbabwean government.  The girls have the energy, but they need resources and support to rise above the challenges they face.&lt;br /&gt;&lt;br /&gt;Enjoy your weekend and get inspired!  My next installment will address another dimension of empowerment - resiliency.</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/8143134964367520177/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=8143134964367520177' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/8143134964367520177'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/8143134964367520177'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/04/get-inspired.html' title='Get inspired...'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-8912423654808495083</id><published>2008-04-01T23:17:00.000-07:00</published><updated>2008-04-02T04:38:51.429-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='Technology'/><category scheme='http://www.blogger.com/atom/ns#' term='dengue'/><category scheme='http://www.blogger.com/atom/ns#' term='cholera'/><category scheme='http://www.blogger.com/atom/ns#' term='Cambodia'/><category scheme='http://www.blogger.com/atom/ns#' term='mobile phone'/><title type='text'>Adventures in PP...</title><content type='html'>We have been in PP (&lt;a href="http://en.wikipedia.org/wiki/Phnom_Penh"&gt;Phnom Penh&lt;/a&gt;) for about a week now to start up our &lt;a href="http://instedd.org/mcp"&gt;Mekong Collaboration Program&lt;/a&gt;. Cambodia is going to be the first site for our field tests, and we are working closely with the Ministry of Health and NGOs to identify the requirements and scope of our work. Our primary objective is to support the Cambodian Center for Disease Control in their ability to detect and respond rapidly to priority diseases (including cholera, dengue, and others). Our secondary objective is to develop a set of tools that can be sustained because there is a market for these tools within and beyond the health sector (and even in the commercial sector).&lt;br /&gt;&lt;br /&gt;One of our top priorities on this trip has been to get a deeper understanding of the technology infrastructure and staffing. Our technology team, including &lt;a href="http://edjez.instedd.org/"&gt;Ed&lt;/a&gt;, our Director of Engineering, believe strongly the tools need to engage and draw on Cambodian talent to be useful and to enable a Cambodian team to provide support after we leave. We welcome ideas on how to build technology sustainably or connections in Cambodia you might recommend.&lt;br /&gt;&lt;br /&gt;One of our favorite NGOs is the &lt;a href="http://www.khmeros.info/drupal/"&gt;Khmer Software Initiative&lt;/a&gt;, whose vision is "a country where Cambodians can learn and use computers in their own language, a country that does not have to change to a new language in order to use computers!" We are also concerned with this question because many software applications here are only in English, including mobile phone text messaging. There are some Khmer cell phones, but their reach is still limited. A serious question we are exploring is: how will widespread access to Khmer text messaging be possible?</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/8912423654808495083/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=8912423654808495083' title='1 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/8912423654808495083'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/8912423654808495083'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/04/adventures-in-pp.html' title='Adventures in PP...'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>1</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-2313864409699133953</id><published>2008-03-18T10:48:00.000-07:00</published><updated>2008-03-18T10:57:35.650-07:00</updated><app:control xmlns:app='http://purl.org/atom/app#'><app:draft>yes</app:draft></app:control><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Texting 4 Health...</title><content type='html'>A few weeks ago I attended the first &lt;a href="http://www.texting4health.org/index.html"&gt;Texting 4 Health Conference&lt;/a&gt; put on by Stanford's &lt;a href="http://captology.stanford.edu/"&gt;Persuasive Technology Lab&lt;/a&gt;.  They have posted all of the &lt;a href="http://www.texting4health.org/page2/page2.html"&gt;presentations&lt;/a&gt; if you want to see what was discussed, including topics such as texting applications to encourage teens to go to clinics for STD testing, tas well as an overview of research methods for mobile health applications.  This conference was one of the first times this community came together (or recognized itself as a community).&lt;br /&gt;&lt;br /&gt;They have also just started a &lt;a href="http://www.texting4health.org/page5/page5.html"&gt;directory&lt;/a&gt; of mobile health related projects worldwide.  I know they are looking to be comprehensive so please add your group to the list if it is not on there already.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/2313864409699133953'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/2313864409699133953'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-2454395491392711646</id><published>2008-03-18T09:37:00.000-07:00</published><updated>2008-03-18T19:50:56.439-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>What is the number one killer worldwide...</title><content type='html'>Heart disease?  Lung cancer?  Traffic accidents?  HIV/AIDS?  This was one of 50 questions over 600 Bay Area teenagers had to answer as part of &lt;a href="http://worldsavvy.org/"&gt;World Savvy's&lt;/a&gt; &lt;a href="http://worldsavvy.org/programs/world-affairs-challenge.php"&gt;World Affairs Challenge&lt;/a&gt; .&lt;br /&gt;&lt;br /&gt;This year’s theme, apropos to InSTEDD’s mission, was Global Health, and students prepared a 15 minute presentation, answered a 50 question world affairs quiz (which you can take below) and discussed a contemporary issue.  I was one of the privileged judges.&lt;br /&gt;&lt;br /&gt;I was completely inspired by the students' creative presentations and their ability to look at the challenges we are addressing with fresh eyes: they held mock trials against China's environmental protection agency, prepared faux news reports from Sudanese refugee camps, and simulated a convening of a &lt;a href="http://www.who.int/en/"&gt;World Health Organization&lt;/a&gt; conference.&lt;br /&gt;&lt;br /&gt;Several teams chose to present on issues they felt were left out from the global health discussions, including the health effects of the contamination of &lt;a href="http://en.wikipedia.org/wiki/Tai_Lake"&gt;Lake Tai&lt;/a&gt; in China, viewing the genocide in Darfur as a public health issue, highlighting the plight of the thousands women a year who die during childbirth and addressing the rise of obesity in Mexico.&lt;br /&gt;&lt;br /&gt;More important than the content of their presentations, was their sincerity of purpose and enthusiasm for the subject.&lt;br /&gt;&lt;br /&gt;From InSTEDD’s standpoint, the most interesting part of the day was what was called the Collaborative Question.   This activity requires 4-6 teens to debate and agree on a proposed solution to a problem they receive at the start of this activity.  This year they acted as Finance Officers for the mock Institute of Global Health in London.  They had to decide how to spend 30 million dollars to address Japanese Encephalitis.  They had the option to work in 3 countries (India, Vietnam or Cambodia) and use one of 5 interventions (education, vaccination research, pig extermination, pesticide spraying of mosquitos and childhood vaccination).&lt;br /&gt;&lt;br /&gt;Of course I was most excited about the group who chose to spend their 30 million in Cambodia on a village education campaign. They chose Cambodia because they were concerned about its low life expectancy (54 years) and they felt, with 14 million people (relative to 1 B in India and 85 million in Vietnam) they had a chance of making a difference.  I told the young people I would share their ideas on my next trip to Cambodia.&lt;br /&gt;&lt;br /&gt;By the way, the Global Burden of Disease report by WHO found that heart disease is the number one killer worldwide.  For those who are inspired to go through the entire quiz, World Savvy has graciously shared it with me.&lt;br /&gt;&lt;br /&gt;Here's the whole &lt;a href="http://www.instedd.org/files/2008%20World%20Savvy%20Quiz.doc"&gt;World Savvy quiz&lt;/a&gt; if you want to take it (it's about 10 minutes).  And, &lt;a href="http://www.instedd.org/files/2008%20World%20Savvy%20Quiz%20Answers.doc"&gt;&lt;span style="text-decoration: underline;"&gt;the answers&lt;/span&gt;&lt;/a&gt;, of course.  Thank you Dana and Bryn at World Savvy!</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/2454395491392711646/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=2454395491392711646' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/2454395491392711646'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/2454395491392711646'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/03/what-is-number-one-killer-worldwide.html' title='What is the number one killer worldwide...'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-1181979230489012965</id><published>2008-02-26T14:10:00.001-08:00</published><updated>2008-02-27T10:02:17.174-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Off to TED...</title><content type='html'>Yesterday our CEO, &lt;a href="http://instedd.org/executiveteam"&gt;Eric Rasmussen&lt;/a&gt; and our CTO, &lt;a href="http://instedd.org/executiveteam"&gt;Robert Kirkpatrick&lt;/a&gt;, headed off to the &lt;a href="http://www.ted.com/index.php/pages/view/id/7"&gt;Technology, Entertainment and Design conference&lt;/a&gt; that promotes "ideas worth spreading" in &lt;a href="http://www.monterey.com/"&gt;Monterey, CA&lt;/a&gt;. Our team was invited to share what has come of the &lt;a href="http://www.instedd.org/organizationhistory"&gt;TED wish&lt;/a&gt; &lt;a href="http://en.wikipedia.org/wiki/Larry_Brilliant"&gt;Larry Brilliant&lt;/a&gt; made two years ago that ultimately gave birth to InSTEDD.   [Larry Brilliant included "TED" in our acronym as a nod to the conference.] Even though you (like me) will not be privy to this invite-only event, most of the amazing speeches will be posted online after the conference.  I highly recommend listening to "Ted Talks" whenever you are in need of inspiration.&lt;br /&gt;&lt;br /&gt;TED has brought together fields (tech, entertainment and design) with natural synergies.   What are those natural synergies in the field of public health?  I am not trying to make public health cool or glamorous;  I am searching for those hooks of excitement and energy that bring people out of their silos and  working together. What would attract people from animal, human and environmental health to work together (besides necessity)?</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/1181979230489012965/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=1181979230489012965' title='2 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/1181979230489012965'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/1181979230489012965'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/02/off-to-ted.html' title='Off to TED...'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>2</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-7337016959166630504</id><published>2008-02-08T18:39:00.000-08:00</published><updated>2008-02-08T19:32:28.250-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>How can you make a difference in a country with over 600 NGOs?</title><content type='html'>That’s one of many questions we are grappling with as we travel through Cambodia from the capital Phnom Pehn to the remote Lao/Cambodia border.  We are meeting with a range of organizations in our effort to understand the terrain and where we can share our expertise and experience in a useful manner. &lt;br /&gt;&lt;br /&gt;As the community focal point for this project, I pay close attention to community-based initiatives. Working with the community is a theme common in many organizations we visited, and Cambodia has a number of village volunteers who serve multiple functions in support of government efforts.  There are animal health volunteers, human health volunteers, malaria volunteers and HIV volunteers among others.   It is impressive how many people give their own time to health-related issues.&lt;br /&gt;&lt;br /&gt;Along with this fantastic cadre of village volunteers, however, come disease or sector specific infrastructure and reporting mechanisms.  For those tracking outbreaks of disease, having many independent systems makes it very difficult to get a full picture and respond effectively.  But this nut is tough to crack.   Disease specific funding streams are partly driven by donors who want to see results in their area of concern.  This silo approach is not only widespread here, but in affluent nations such as the United States. We are exploring ways technology might be able to build bridges and open communication.&lt;br /&gt;&lt;br /&gt;Regardless of the professional challenges, Cambodia is a glorious place to be.  I am writing this blog overlooking the majestic Mekong River which is so vast at times it resembles the sea. I plan to visit the &lt;a href="http://en.wikipedia.org/wiki/Choeung_Ek"&gt;Killing Fields of Choeung Ek&lt;/a&gt; and the &lt;a href="http://en.wikipedia.org/wiki/Tuol_Sleng#External_links"&gt;Tuol Sleng Genocide Museum&lt;/a&gt; because the present cannot be understood without an appreciation for the horrific past they have endured.  We learned that only six doctors survived the Khmer Rouge regime, and we have had the great honor to meet two of these extraordinary individuals.  I hope we can give something back to this nation (and others in the region) that have suffered so greatly.</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/7337016959166630504/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=7337016959166630504' title='2 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/7337016959166630504'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/7337016959166630504'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/02/how-can-you-make-difference-in-country.html' title='How can you make a difference in a country with over 600 NGOs?'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>2</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-1536514811392660494</id><published>2008-01-31T15:43:00.000-08:00</published><updated>2008-01-31T16:23:02.318-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Thai Curry Without the Chili</title><content type='html'>That's what Fran Baum of the &lt;a href="http://phmovement.org/"&gt;People's Health Movement&lt;/a&gt; called talking about primary health care without talking about the global political and economic conditions that lead to poor primary health care.   It's mild and bland and not the real deal.  This metaphor was one of many shared during the &lt;a href="http://www.pmaconference.org/home.asp"&gt;Prince Mahidol Awards Ceremony&lt;/a&gt; conference we are attending in Thailand. &lt;br /&gt;&lt;br /&gt;Now you may wonder…what does primary health care have to do with InSTEDD?   Everything, it turns out.   A strong primary health care system is one of the best ways to encourage and protect  public health.   Robert Woollard, head of the &lt;a href="http://www.familypractice.ubc.ca/"&gt;Department of Family Practice&lt;/a&gt; at the &lt;a href="http://www.ubc.ca/"&gt;University of British Colombia&lt;/a&gt;, advocates a new relationship between public and primary health.  Primary health has focused almost exclusively on the individual, and public health solely on the entire community.  Instead of one or the other, he suggests we think in terms of relationships.  With whom are we connected?  How can we build those connections?  Technology may be ahead of the human side.  There are already efforts underway technologically to link electronic health records with public health reporting.  According to my colleague &lt;a href="http://taha.instedd.org/"&gt;Taha Kass-Hout&lt;/a&gt;, in New York City when they get word of an outbreak, they send an alert to everyone whose electronic health record indicates those symptoms. &lt;br /&gt;&lt;br /&gt;As a final, unrelated note, Thailand is an amazing place.   It has fragrant juices, from lemongrass to fresh guava and a concoction sort of like a virgin mojito.  It also has the usual suspects in terms of American fast food including Pizza Hut, McDonald’s and KFC.  (An aside, what are the ethics on links?  I really do not want to link you to the Pizza Hut page.)  But strangely enough, they’ve been so penetrated by American fast food that they even have &lt;a href="http://www.auntieannes.com/"&gt;Auntie Anne’s&lt;/a&gt; Pretzels.  Who knew there was a market for freshly made pretzels in Thailand?&lt;br /&gt;&lt;br /&gt;Bye for now.  We go to Chang Mai tonight for the &lt;a href="http://www.rockmekong.org/"&gt;Mekong Basin Disease Surveillance&lt;/a&gt; meeting, and then on to Cambodia.</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/1536514811392660494/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=1536514811392660494' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/1536514811392660494'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/1536514811392660494'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/01/thai-curry-without-chili.html' title='Thai Curry Without the Chili'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-1427697647988046401</id><published>2008-01-24T19:27:00.000-08:00</published><updated>2008-01-25T13:28:05.452-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>On to Cambodia in Search of Assets...(Not the Kind You Imagine)</title><content type='html'>&lt;p class="MsoNormal"&gt;&lt;span style="font-size:+0;"&gt;&lt;/span&gt;&lt;span style="font-size:+0;"&gt;&lt;/span&gt;&lt;?xml:namespace prefix = o /&gt;&lt;o:p&gt;We leave Monday for Thailand and Cambodia to work on our &lt;a href="http://www.instedd.org/mcp"&gt;Mekong Collaboration Program&lt;/a&gt;. &lt;/o:p&gt;&lt;/p&gt;&lt;br /&gt;&lt;p class="MsoNormal"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;o:p&gt;In preparation for this trip, I dug up a methodology that served me well in the social work field: the &lt;a href="http://www.sesp.northwestern.edu/abcd/"&gt;asset mapping&lt;/a&gt; approach. This model is not about tracking strategic assets. It is about communities focusing on their own strength and capacity. This approach often starts with a community developing a health scorecard of positive community activities, such as kids spending time with grandparents, that can then become a focus for community energy and activism.&lt;/o:p&gt;&lt;/p&gt;&lt;br /&gt;&lt;p class="MsoNormal"&gt;&lt;o:p&gt;This methodology works great when approaching general social issues, but how well does it work in the technology realm internationally? InSTEDD was hired to work in Southeast Asia because of our technology expertise. How can we share technology in a way that is relevant and empowering to communities? The obvious model is the transfer and train model, a model which many technology organizations currently use. An asset approach would take technology sharing much further than that. In the article &lt;a href="http://xenia.media.mit.edu/~rpinkett/papers/acsp2000.pdf"&gt;Closing the Digital Divide: An Asset-Based Approach to Community Building and Community Technology&lt;/a&gt; , Nicol Turner at Northwestern and Randal Pinkett at MIT suggest that the technology itself and how it is shared should facilitate the strengthening of assets in a community. They wrote that "while e-mail and listservs are useful and value tools, we are advocating a new class of community technology, that is specifically designed to support asset-based community development" (p. 5). Technology is used to reinforce cultural identity, broaden community communciation and improve resource exchange.&lt;br /&gt;&lt;br /&gt;Can we find ways to track infectious disease in ways that strengthen the community identity? It's tough, because infectious disease may not be the top priority of villagers in Laos or Cambodia, many of whom do not have access to clean water or adequate food. Can we serve the broader public health needs and serve community interests as well? &lt;/o:p&gt;&lt;/p&gt;</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/1427697647988046401/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=1427697647988046401' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/1427697647988046401'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/1427697647988046401'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/01/on-to-cambodia-in-search-of-assetsnot.html' title='On to Cambodia in Search of Assets...(Not the Kind You Imagine)'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-2864040542166303616</id><published>2008-01-17T08:36:00.000-08:00</published><updated>2008-01-17T08:59:58.218-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='Cambodia'/><category scheme='http://www.blogger.com/atom/ns#' term='refugee'/><category scheme='http://www.blogger.com/atom/ns#' term='Congo'/><category scheme='http://www.blogger.com/atom/ns#' term='Community'/><title type='text'>Welcome to InSTEDD's Community Perspectives</title><content type='html'>Welcome to InSTEDD. I am really glad you are here and interested in our mission to enhance global disease and disaster response with technology tools. In addition to managing some of the projects, my particular focus is to ensure that diverse and grassroots voices are an important part of our work, from informing the tools we refine to the way technology is shared. My background is in international politics and social work, so I come with a geopolitical perspective and a deep appreciation for how power dynamics, culture and class can complicate working with people internationally. I really care about making a difference and would love to hear your experiences on successes you have had.&lt;br /&gt;&lt;br /&gt;We are going to Cambodia at the end of January to continue our assessment process for our &lt;a href="http://www.instedd.org/mcp"&gt;Mekong Collaboration Program&lt;/a&gt;. Most of my personal contacts are in Africa, so if you know of great community groups or non-governmental organizations (NGOs) in Cambodia you would recommend, please let me know.&lt;br /&gt;&lt;br /&gt;My own approach is greatly informed by my time working in a Rwandan refugee camp after the genocide with the unaccompanied minors program. Instead of coming in with our 'outsider' answers, we looked at what the Rwandans were already doing (taking in stranger's children) and supported that effort. On the other side of Rwanda (Zaire, now Congo), international media attention on the children inspired many groups to set up orphanages which encouraged families to drop off their own children so they could get more food. There were other differences between the two regions, but the two differing approaches had profoundly different outcomes. In our camp, we had 5,000 children in foster care and 20 in a care center, and in Zaire they had 10,000 children in orphanages/care centers. After that experience, I begin any cross-cultural work or community work by seeking to understand what people are naturally doing and supporting those efforts.&lt;br /&gt;&lt;br /&gt;What experiences have shaped your own view of working internationally?&lt;br /&gt;&lt;br /&gt;Bye for now. I will be writing weekly so check back or email me at &lt;a href="mailto:marcus@instedd.org"&gt;marcus@instedd.org&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Sincerely, Mary Jane</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/2864040542166303616/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=2864040542166303616' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/2864040542166303616'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/2864040542166303616'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/01/welcome-to-instedds-community.html' title='Welcome to InSTEDD&apos;s Community Perspectives'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-107895168899095850</id><published>2008-01-08T17:05:00.000-08:00</published><updated>2008-01-11T17:39:33.543-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='Technology'/><category scheme='http://www.blogger.com/atom/ns#' term='India'/><category scheme='http://www.blogger.com/atom/ns#' term='Agriculture'/><title type='text'>Just Back from India</title><content type='html'>I just returned from India, a personal trip to attend a friend's wedding that also included many opportunities to explore how InSTEDD could serve the communities here. Disaster and public health are both top priorities here. India was in the midst of a major polio vaccination push, with banners displayed around Dehli encouraging families to get their children immunized on a mass immunization day - January 6th. In the eastern region, they are responding to the the once every 48 year bamboo bloom that brings with it thousands of &lt;a href="http://indiapost.com/article/india/1615/"&gt;rats&lt;/a&gt; and mass exoduses.&lt;br /&gt;&lt;br /&gt;The most interesting discovery was during a conversation with my friend, Chhaya Kunmar, who works for an NGO in the Himalayan mountain regions south of Nepal. The founders of &lt;a href="http://www.harcindia.org/"&gt;Himalayan Action Research Centre&lt;/a&gt; realized the greatest way they could empower people of the rural areas was to provide information. The center of HARC's platform is to share information and provide training to these rural villagers, and information alone, without direct financial aid, has had a tremendous effect. They showed villagers how worthwhile organizing into farmer groups could be, and they also introduced these farmers to large buyers who could give them better prices. These two efforts resulted in orange farmers earning from 1 cent a kilo to 5 cents a kilo. It turns out these rural villagers simply did not have easy access to information and resources that would help them improve their lives. But what is most significant is HARC's approach. They do not arrange the buying or tell farmers what to grow; they simply introduce them to better opportunities and allow the farmers to decide.&lt;br /&gt;&lt;br /&gt;This model is relevant to InSTEDD's efforts to use technology to gather and share information more effectively in remote regions of the world.&lt;br /&gt;&lt;br /&gt;Technology had penetrated these &lt;a href="http://www.whereincity.com/photo-gallery/hill-stations"&gt;hill stations&lt;/a&gt; (though I would call them mountains they were so enormous) but to a lesser extent than one would think of India. In the village of Naugaun in the state of Uttranchal, some farmers have cell phones, and anyone with a job outside the subsistence sector has a cell phone. There was no internet cafe in the village, and computers were definitely limited to the NGO, and were further limited by the regular power outages in the village.</content><link rel='replies' type='application/atom+xml' href='http://maryjanemarcus.instedd.org/feeds/107895168899095850/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=2487636404487468938&amp;postID=107895168899095850' title='1 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/107895168899095850'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/posts/default/107895168899095850'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/01/just-back-from-india.html' title='Just Back from India'/><author><name>Mary Jane Marcus</name><email>maryjane.marcus@gmail.com</email></author><thr:total>1</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-5737757158005773207</id><published>2010-01-26T16:26:20.068-08:00</published><updated>2010-01-26T16:26:20.068-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>Great post MJ... Cheers, - Taha</title><content type='html'>Great post MJ... Cheers, - Taha</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/8444553976490326814/comments/default/5737757158005773207'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/8444553976490326814/comments/default/5737757158005773207'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2010/01/ki-jan-ou-rele.html?showComment=1264551980068#c5737757158005773207' title=''/><author><name>Taha Kass-Hout, MD, MS</name><uri>http://www.blogger.com/profile/02926312113498434136</uri><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://maryjanemarcus.instedd.org/2010/01/ki-jan-ou-rele.html' ref='tag:blogger.com,1999:blog-2487636404487468938.post-8444553976490326814' source='http://www.blogger.com/feeds/2487636404487468938/posts/default/8444553976490326814' type='text/html'/></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-29324057444548216</id><published>2008-05-08T11:27:00.000-07:00</published><updated>2008-05-08T11:27:48.421-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>Mary Jane - I don't think it's a good idea to use ...</title><content type='html'>Mary Jane - I don't think it's a good idea to use the term Myanmar to refer to Burma.   To do so is to recognize the legitimacy of the ruling military government and collude with its undemocratic decision to rename the country in English.See http://en.wikipedia.org/wiki/Myanmar#Etymology_and_origins</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/7707425946160394371/comments/default/29324057444548216'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/7707425946160394371/comments/default/29324057444548216'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/05/empowerment-practice-explored.html?showComment=1210271220000#c29324057444548216' title=''/><author><name>Whistleblower</name><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://maryjanemarcus.instedd.org/2008/05/empowerment-practice-explored.html' ref='tag:blogger.com,1999:blog-2487636404487468938.post-7707425946160394371' source='http://www.blogger.com/feeds/2487636404487468938/posts/default/7707425946160394371' type='text/html'/></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-8127878944797481885</id><published>2008-04-04T18:58:00.000-07:00</published><updated>2008-04-04T18:58:24.430-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>Dear Ms. Marcus,&lt;br&gt;&lt;br&gt;An acquaintant I met in th...</title><content type='html'>Dear Ms. Marcus,&lt;BR/&gt;&lt;BR/&gt;An acquaintant I met in the USA referred me to your blog.  I have been working at Sihanouk Hospital Center of HOPE (which provides free medical care and trains local staff to more competent in the internation level) since 2003. I am overseeing activities in telemedicine and capacity building in the public health sector.  Due to our unique experience in using ICT in the medical practice in Cambodia, esp. in remote settings, we were invited by the Cambodian Ministry of Health to help to organize two workshops in training physicians from various referral hospitals in the different provinces of Cambodia.  I would like to meet with you to discussion more on the issue of using ICT in the health sector of Cambodia.  Please contact me by sending me a note to chaurithy@gmail.com.&lt;BR/&gt;&lt;BR/&gt;Looking forward to your reply.&lt;BR/&gt;&lt;BR/&gt;Best Reagrds,&lt;BR/&gt;Rithy</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/8912423654808495083/comments/default/8127878944797481885'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/8912423654808495083/comments/default/8127878944797481885'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/04/adventures-in-pp.html?showComment=1207360680000#c8127878944797481885' title=''/><author><name>Cambodia</name><uri>http://www.blogger.com/profile/17297628592061028591</uri><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://maryjanemarcus.instedd.org/2008/04/adventures-in-pp.html' ref='tag:blogger.com,1999:blog-2487636404487468938.post-8912423654808495083' source='http://www.blogger.com/feeds/2487636404487468938/posts/default/8912423654808495083' type='text/html'/></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-2591045574169965440</id><published>2008-03-18T10:47:00.000-07:00</published><updated>2008-03-18T10:47:45.739-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>That is a great idea.  We are not responsible for ...</title><content type='html'>That is a great idea.  We are not responsible for organizing TED and do not have the funds to bring someone to the conference, but the organizers might.  I know they are organizing their second TED Africa conference (to be held in Cape Town in September) to expand the reach of the TED efforts.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/1181979230489012965/comments/default/2591045574169965440'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/1181979230489012965/comments/default/2591045574169965440'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/02/off-to-ted.html?showComment=1205862420000#c2591045574169965440' title=''/><author><name>Mary Jane Marcus</name><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://maryjanemarcus.instedd.org/2008/02/off-to-ted.html' ref='tag:blogger.com,1999:blog-2487636404487468938.post-1181979230489012965' source='http://www.blogger.com/feeds/2487636404487468938/posts/default/1181979230489012965' type='text/html'/></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-4103048052243190011</id><published>2008-03-13T20:08:00.000-07:00</published><updated>2008-03-13T20:08:11.643-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>One idea that INSTEDD may want to look into. A sch...</title><content type='html'>One idea that INSTEDD may want to look into. A scholarship for a social entrepreneur from anywhere in the world, that INSTEDD has worked with or knows of, to attend TED. If it is all it is made out to be in the media, more people living in the regions really grappling with the challenges brought out in the conference need to experience it live.&lt;BR/&gt;&lt;BR/&gt;Best regards,&lt;BR/&gt;&lt;BR/&gt;Sanjana</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/1181979230489012965/comments/default/4103048052243190011'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/1181979230489012965/comments/default/4103048052243190011'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/02/off-to-ted.html?showComment=1205464080000#c4103048052243190011' title=''/><author><name>Blogger #1</name><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://maryjanemarcus.instedd.org/2008/02/off-to-ted.html' ref='tag:blogger.com,1999:blog-2487636404487468938.post-1181979230489012965' source='http://www.blogger.com/feeds/2487636404487468938/posts/default/1181979230489012965' type='text/html'/></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-1169310362567394614</id><published>2008-03-20T11:51:00.000-07:00</published><updated>2008-03-20T11:51:27.345-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>Dear Colleagues&lt;br&gt;The challenge of information is...</title><content type='html'>Dear Colleagues&lt;BR/&gt;The challenge of information is not new ... information overload has been an issue in management as long as I can remember and perhaps since the invention of the printing press ... now aggravated by modern technology and fast but not deep communications. &lt;BR/&gt;We need to think hard about what information is key, useful and material and work to filter out the vast amount of "noise" that is getting in the way. &lt;BR/&gt;Tr-Ac-Net's focus on community centric information may be a way forward, combined with a framework for social benefit accountancy ... which is now relatively easy with Internet technology.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/7337016959166630504/comments/default/1169310362567394614'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/7337016959166630504/comments/default/1169310362567394614'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/02/how-can-you-make-difference-in-country.html?showComment=1206039060000#c1169310362567394614' title=''/><author><name>Peter Burgess</name><uri>http://www.blogger.com/profile/02133615059640627095</uri><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://maryjanemarcus.instedd.org/2008/02/how-can-you-make-difference-in-country.html' ref='tag:blogger.com,1999:blog-2487636404487468938.post-7337016959166630504' source='http://www.blogger.com/feeds/2487636404487468938/posts/default/7337016959166630504' type='text/html'/></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-7178301594556644881</id><published>2008-03-13T20:05:00.000-07:00</published><updated>2008-03-13T20:05:12.995-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>The problem you point to - the lack of knowledge s...</title><content type='html'>The problem you point to - the lack of knowledge sharing between and information management within NGOs leading to fractured outcomes and much waste - is a problem larger than just those NGOs you point to. My work over the past decade in Sri Lanka has been to encourage, with varying degrees of success, organisations and individuals in civil society to share information in pursuit of shared goals. The idea that sharing strengthens everybody's outcomes sounds obvious, but tremendously difficult to communicate and sustain in a complex environment where there is no trust, little donor aid, and frankly, very little collaboration and coordination between donors themselves. In Sri Lanka we are working presently on three front to address human rights, human trafficking and victims of violence with NGOs, and designed a collaborative workspace for key donors and a back-office management platform for small to large NGOs. All standards based. All interoperable. All technically possible of linking with each other on demand. We have a long way to go - but if anything, the central problem seems to me to be resistance from individuals rather than anything technical. Human nature, you will agree, is a complex beast that bedevils the best of technology.&lt;BR/&gt;&lt;BR/&gt;Best regards,&lt;BR/&gt;&lt;BR/&gt;Sanjana Hattotuwa</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/7337016959166630504/comments/default/7178301594556644881'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/7337016959166630504/comments/default/7178301594556644881'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/02/how-can-you-make-difference-in-country.html?showComment=1205463900000#c7178301594556644881' title=''/><author><name>Blogger #1</name><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://maryjanemarcus.instedd.org/2008/02/how-can-you-make-difference-in-country.html' ref='tag:blogger.com,1999:blog-2487636404487468938.post-7337016959166630504' source='http://www.blogger.com/feeds/2487636404487468938/posts/default/7337016959166630504' type='text/html'/></entry><entry><id>tag:blogger.com,1999:blog-2487636404487468938.post-6761837562047261342</id><published>2008-09-01T08:40:00.000-07:00</published><updated>2008-09-01T08:40:42.914-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>Hi Mary Jane,&lt;br&gt;Let me introduce myself to you. m...</title><content type='html'>Hi Mary Jane,&lt;BR/&gt;Let me introduce myself to you. my name is Lionel Gbaguidi and I am a veterinarian working in Benin (West Africa) on emerging diseases such as avian Influenza. I believe that ICT could help africa to jump/move moutains . I recently attended a meeting in France where the Wimax technology (Wireless Interoperability for Microwave Access)has been presented as one of the technology which could be use. &lt;BR/&gt;We (in west africa) are working on possibilities (or somewhere already in use) mobile GSM technology through SMS/MMS to reduce distances between producers and consumers and to spread more information on diseases control, etc..&lt;BR/&gt;I would like to know if you have programs for Africa and how we could collaborate in the region.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/107895168899095850/comments/default/6761837562047261342'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2487636404487468938/107895168899095850/comments/default/6761837562047261342'/><link rel='alternate' type='text/html' href='http://maryjanemarcus.instedd.org/2008/01/just-back-from-india.html?showComment=1220283600000#c6761837562047261342' title=''/><author><name>Babala</name><uri>http://www.blogger.com/profile/01144445436561913321</uri><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://maryjanemarcus.instedd.org/2008/01/just-back-from-india.html' ref='tag:blogger.com,1999:blog-2487636404487468938.post-107895168899095850' source='http://www.blogger.com/feeds/2487636404487468938/posts/default/107895168899095850' type='text/html'/></entry></feed>

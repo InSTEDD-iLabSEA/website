@@ -1,0 +1,8 @@
+.olPopup {
+	cursor: pointer;
+}
+
+#info-popup_contentDiv {
+	overflow: hidden;
+	text-align: center;
+}

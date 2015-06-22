@@ -1,0 +1,41 @@
+.search-form .field {
+	padding: 2px 5px 0 !important;
+}
+
+.nivo-caption {
+	bottom: -1px !important;	
+}
+
+#home-columns-container h2 {
+	padding-top: 5px !important;
+	background-image: url(images/logo-segment-right-white-small.png) 20px 5px no-repeat !important;
+}
+
+#home-columns-container h3 {
+	padding-top: 2px !important;	
+	padding-bottom: 6px !important;
+	background-image: url(images/logo-segment-gray-right.png) 6px 0 no-repeat !important;
+}
+
+div#follow-twitter  img {
+	margin: 3px 6px 0 !important;
+}
+
+#navigation div.search-form .button {
+	padding: 1px 0 2px 0 !important;
+	height: 20px !important;
+}
+
+#header .btn-donate-big {
+	height: 26px;
+	padding-top: 2px;
+}
+
+a.contact, a.enews {
+	margin: 0 18px 0 12px !important;
+}
+
+.email-form .field {
+	height: 21px !important;
+	padding: 5px 3px 0 !important;	
+}
